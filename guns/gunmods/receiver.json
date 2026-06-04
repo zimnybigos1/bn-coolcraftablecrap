@@ -7,8 +7,8 @@
     "description": "A set of handmade parts that allows a firearm to chamber and fire .22 LR cartridges. Compatible only with custom modular firearms.",
     "weight": "150 g",
     "volume": "250 ml",
-    "integral_volume": "100 ml",                      
-    "integral_weight": "150 g", 
+    "integral_volume": "100 ml",
+    "integral_weight": "150 g",
     "price": "50 USD",
     "material": "steel",
     "symbol": ":",
@@ -19,7 +19,7 @@
     "min_skills": [ [ "weapon", 1 ], [ "mechanics", 1 ] ],
     "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
     "magazine_adaptor": [ [ "22", [ "mag_modular_22_small" ] ], [ "22", [ "mag_modular_22_standard" ] ], [ "22", [ "mag_modular_22_big" ] ] ],
-    "range_modifier": -10,
+    "range_modifier": -10
   },
   {
     "id": "retool_9mm_modular",
@@ -28,8 +28,8 @@
     "description": "A set of handmade parts that allows a firearm to chamber and fire 9x19mm Parabellum cartridges. Compatible only with custom modular firearms.",
     "weight": "150 g",
     "volume": "250 ml",
-    "integral_volume": "100 ml",                      
-    "integral_weight": "150 g", 
+    "integral_volume": "100 ml",
+    "integral_weight": "150 g",
     "price": "10 USD",
     "material": "steel",
     "symbol": ":",
@@ -44,7 +44,7 @@
       [ "9mm", [ "mag_modular_9mm_standard" ] ],
       [ "9mm", [ "mag_modular_9mm_big" ] ]
     ],
-    "range_modifier": -10,
+    "range_modifier": -10
   },
   {
     "id": "retool_45_modular",
@@ -53,8 +53,8 @@
     "description": "A set of handmade parts that allows a firearm to chamber and fire .45 ACP cartridges. Compatible only with custom modular firearms.",
     "weight": "150 g",
     "volume": "250 ml",
-    "integral_volume": "100 ml",                      
-    "integral_weight": "150 g", 
+    "integral_volume": "100 ml",
+    "integral_weight": "150 g",
     "price": "10 USD",
     "material": "steel",
     "symbol": ":",
@@ -65,7 +65,7 @@
     "min_skills": [ [ "weapon", 1 ], [ "mechanics", 1 ] ],
     "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
     "magazine_adaptor": [ [ "45", [ "mag_modular_45_small" ] ], [ "45", [ "mag_modular_45_standard" ] ], [ "45", [ "mag_modular_45_big" ] ] ],
-    "range_modifier": -10,
+    "range_modifier": -10
   },
   {
     "id": "retool_38_modular",
@@ -74,8 +74,8 @@
     "description": "A set of handmade parts that allows a firearm to chamber and fire .38 Special cartridges. Compatible only with custom modular firearms.",
     "weight": "150 g",
     "volume": "250 ml",
-    "integral_volume": "100 ml",                      
-    "integral_weight": "150 g", 
+    "integral_volume": "100 ml",
+    "integral_weight": "150 g",
     "price": "10 USD",
     "material": "steel",
     "symbol": ":",
@@ -86,7 +86,7 @@
     "min_skills": [ [ "weapon", 1 ], [ "mechanics", 1 ] ],
     "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
     "magazine_adaptor": [ [ "38", [ "mag_modular_38_small" ] ], [ "38", [ "mag_modular_38_standard" ] ], [ "38", [ "mag_modular_38_big" ] ] ],
-    "range_modifier": -10,
+    "range_modifier": -10
   },
   {
     "id": "retool_44_modular",
@@ -95,8 +95,8 @@
     "description": "A set of handmade parts that allows a firearm to chamber and fire .44 Magnum cartridges. Compatible only with custom modular firearms.",
     "weight": "150 g",
     "volume": "250 ml",
-    "integral_volume": "100 ml",                      
-    "integral_weight": "150 g", 
+    "integral_volume": "100 ml",
+    "integral_weight": "150 g",
     "price": "10 USD",
     "material": "steel",
     "symbol": ":",
@@ -107,7 +107,7 @@
     "min_skills": [ [ "weapon", 1 ], [ "mechanics", 1 ] ],
     "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
     "magazine_adaptor": [ [ "44", [ "mag_modular_44_small" ] ], [ "44", [ "mag_modular_44_standard" ] ], [ "44", [ "mag_modular_44_big" ] ] ],
-    "range_modifier": -10,
+    "range_modifier": -10
   },
   {
     "id": "retool_223_modular",
@@ -116,8 +116,8 @@
     "description": "A set of handmade parts that allows a firearm to chamber and fire 5.56x45mm NATO cartridges. Compatible only with custom modular firearms.",
     "weight": "250 g",
     "volume": "350 ml",
-    "integral_volume": "200 ml",                      
-    "integral_weight": "250 g", 
+    "integral_volume": "200 ml",
+    "integral_weight": "250 g",
     "price": "10 USD",
     "material": "steel",
     "symbol": ":",
@@ -132,7 +132,7 @@
       [ "223", [ "mag_modular_223_standard" ] ],
       [ "223", [ "mag_modular_223_big" ] ]
     ],
-    "range_modifier": -10,
+    "range_modifier": -10
   },
   {
     "id": "retool_762_modular",
@@ -141,8 +141,8 @@
     "description": "A set of handmade parts that allows a firearm to chamber and fire 7.62x39mm cartridges. Compatible only with custom modular firearms.",
     "weight": "250 g",
     "volume": "350 ml",
-    "integral_volume": "200 ml",                      
-    "integral_weight": "250 g", 
+    "integral_volume": "200 ml",
+    "integral_weight": "250 g",
     "price": "10 USD",
     "material": "steel",
     "symbol": ":",
@@ -157,7 +157,7 @@
       [ "762", [ "mag_modular_762_standard" ] ],
       [ "762", [ "mag_modular_762_big" ] ]
     ],
-    "range_modifier": -10,
+    "range_modifier": -10
   },
   {
     "id": "retool_308_modular",
@@ -166,8 +166,8 @@
     "description": "A set of handmade parts that allows a firearm to chamber and fire 7.62x51mm NATO cartridges. Compatible only with custom modular firearms.",
     "weight": "250 g",
     "volume": "350 ml",
-    "integral_volume": "200 ml",                      
-    "integral_weight": "250 g", 
+    "integral_volume": "200 ml",
+    "integral_weight": "250 g",
     "price": "10 USD",
     "material": "steel",
     "symbol": ":",
@@ -182,7 +182,7 @@
       [ "308", [ "mag_modular_308_standard" ] ],
       [ "308", [ "mag_modular_308_big" ] ]
     ],
-    "range_modifier": -10,
+    "range_modifier": -10
   },
   {
     "id": "retool_762R_modular",
@@ -191,8 +191,8 @@
     "description": "A set of handmade parts that allows a firearm to chamber and fire 7.62x54mmR cartridges. Compatible only with custom modular firearms.",
     "weight": "250 g",
     "volume": "350 ml",
-    "integral_volume": "200 ml",                      
-    "integral_weight": "250 g", 
+    "integral_volume": "200 ml",
+    "integral_weight": "250 g",
     "price": "10 USD",
     "material": "steel",
     "symbol": ":",
@@ -207,7 +207,7 @@
       [ "762R", [ "mag_modular_762R_standard" ] ],
       [ "762R", [ "mag_modular_762R_big" ] ]
     ],
-    "range_modifier": -10,
+    "range_modifier": -10
   },
   {
     "id": "retool_shot_modular",
@@ -216,8 +216,8 @@
     "description": "A set of handmade parts that allows a firearm to chamber and fire 12 Gauge cartridges. Compatible only with custom modular firearms.",
     "weight": "250 g",
     "volume": "350 ml",
-    "integral_volume": "200 ml",                      
-    "integral_weight": "250 g", 
+    "integral_volume": "200 ml",
+    "integral_weight": "250 g",
     "price": "10 USD",
     "material": "steel",
     "symbol": ":",
@@ -232,7 +232,7 @@
       [ "shot", [ "mag_modular_shot_standard" ] ],
       [ "shot", [ "mag_modular_shot_big" ] ]
     ],
-    "range_modifier": -15,
+    "range_modifier": -15
   },
   {
     "id": "retool_50_modular",
@@ -241,8 +241,8 @@
     "description": "A set of handmade parts that allows a firearm to chamber and fire .50 BMG cartridges. Compatible only with custom modular firearms.",
     "weight": "350 g",
     "volume": "450 ml",
-    "integral_volume": "300 ml",                      
-    "integral_weight": "350 g", 
+    "integral_volume": "300 ml",
+    "integral_weight": "350 g",
     "price": "10 USD",
     "material": "steel",
     "symbol": ":",
@@ -261,8 +261,8 @@
     "description": "A set of handmade parts that allows a firearm to chamber and fire 40x46mm grenades. Compatible only with custom modular firearms.",
     "weight": "350 g",
     "volume": "450 ml",
-    "integral_volume": "300 ml",                      
-    "integral_weight": "350 g", 
+    "integral_volume": "300 ml",
+    "integral_weight": "350 g",
     "price": "10 USD",
     "material": "steel",
     "symbol": ":",
@@ -277,7 +277,7 @@
       [ "40x46mm", [ "mag_modular_40x46mm_standard" ] ],
       [ "40x46mm", [ "mag_modular_40x46mm_big" ] ]
     ],
-    "range_modifier": -10,
+    "range_modifier": -10
   },
   {
     "id": "retool_223_belt_modular",
@@ -286,8 +286,8 @@
     "description": "A set of handmade parts that allows a firearm to chamber and fire 5.56x45mm NATO cartridges either from a magazine or ammo belt. Compatible only with custom modular firearms.",
     "weight": "350 g",
     "volume": "450 ml",
-    "integral_volume": "300 ml",                      
-    "integral_weight": "350 g", 
+    "integral_volume": "300 ml",
+    "integral_weight": "350 g",
     "price": "10 USD",
     "material": "steel",
     "symbol": ":",
@@ -303,7 +303,7 @@
       [ "223", [ "mag_modular_223_big" ] ],
       [ "223", [ "belt223" ] ]
     ],
-    "range_modifier": -10,
+    "range_modifier": -10
   },
   {
     "id": "retool_308_belt_modular",
@@ -312,8 +312,8 @@
     "description": "A set of handmade parts that allows a firearm to chamber and fire 7.62x51mm NATO cartridges either from a magazine or ammo belt. Compatible only with custom modular firearms.",
     "weight": "350 g",
     "volume": "450 ml",
-    "integral_volume": "300 ml",                      
-    "integral_weight": "350 g", 
+    "integral_volume": "300 ml",
+    "integral_weight": "350 g",
     "price": "10 USD",
     "material": "steel",
     "symbol": ":",
@@ -329,7 +329,7 @@
       [ "308", [ "mag_modular_308_big" ] ],
       [ "308", [ "belt308" ] ]
     ],
-    "range_modifier": -10,
+    "range_modifier": -10
   },
   {
     "id": "retool_50_belt_modular",
@@ -338,8 +338,8 @@
     "description": "A set of handmade parts that allows a firearm to chamber and fire .50 BMG cartridges either from a magazine or ammo belt. Compatible only with custom modular firearms.",
     "weight": "350 g",
     "volume": "450 ml",
-    "integral_volume": "300 ml",                      
-    "integral_weight": "350 g", 
+    "integral_volume": "300 ml",
+    "integral_weight": "350 g",
     "price": "10 USD",
     "material": "steel",
     "symbol": ":",
@@ -355,7 +355,7 @@
       [ "50", [ "mag_modular_50_big" ] ],
       [ "50", [ "belt50" ] ]
     ],
-    "range_modifier": -10,
+    "range_modifier": -10
   }
 ]
 

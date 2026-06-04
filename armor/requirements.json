@@ -1,6 +1,6 @@
 [
-{    
-"id": "chainmail_superalloy",
+  {
+    "id": "chainmail_superalloy",
     "type": "requirement",
     "qualities": [
       { "id": "CUT", "level": 1 },
@@ -12,3 +12,4 @@
     "components": [ [ [ "link_sheet_superalloy", 1 ] ], [ [ "chain_link_superalloy", 25 ] ] ]
   }
 ]
+

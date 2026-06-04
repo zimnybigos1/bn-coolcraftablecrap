@@ -746,11 +746,7 @@
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_NESTED",
     "description": "Barrels for custom firearms",
-    "nested_category_data": [
-      "barrel_short_modular",
-      "barrel_standard_modular",
-      "barrel_long_modular"
-    ]
+    "nested_category_data": [ "barrel_short_modular", "barrel_standard_modular", "barrel_long_modular" ]
   },
   {
     "type": "recipe",
@@ -787,6 +783,6 @@
     "time": "2 h",
     "autolearn": true,
     "using": [ [ "gunmod_basic", 3 ] ]
-  },
+  }
 ]
 
