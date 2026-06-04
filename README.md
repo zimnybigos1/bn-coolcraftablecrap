@@ -10,6 +10,7 @@ Currently adds:
 - 2 pieces of superalloy trench armor
 - Superheavy composite armor
 - 10 customizable guns with 57 interchangeable parts
+- usable lathe and drill press
 
 
 <img width="480" height="416" alt="image" src="https://github.com/user-attachments/assets/5e93af37-d89b-45c1-911c-d8797c1ed147" /><img width="480" height="416" alt="image" src="https://github.com/user-attachments/assets/6bb3bcc0-c110-4c75-a34a-0372e280d769" />
