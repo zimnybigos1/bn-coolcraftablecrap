@@ -139,6 +139,106 @@
     "cutting": 41,
     "material": "superalloy",
     "color": "light_cyan"
+  },
+  {
+    "id": "tazer_spear",
+    "type": "TOOL",
+    "category": "weapons",
+    "weapon_category": [ "SPEARS" ],
+    "symbol": "/",
+    "color": "brown",
+    "looks_like": "long_pole",
+    "name": { "str": "tazer spear (off)" },
+    "description": "A high powered stun gun attached to a sturdy pole. Can be turned on to electrocute enemies from a safe distance",
+    "price_postapoc": "20 USD",
+    "material": [ "wood", "plastic", "aluminum" ],
+    "techniques": [ "WBLOCK_1" ],
+    "flags": [ "SPEAR", "REACH_ATTACK", "NONCONDUCTIVE", "STAB", "SHEATH_SPEAR", "COMBAT_NPC_USE" ],
+    "weight": "2750 g",
+    "volume": "4000 ml",
+    "bashing": 25,
+    "to_hit": 1,
+    "ammo": "battery",
+    "use_action": {
+      "type": "transform",
+      "msg": "You press a button and the tazer crackles with electricity.",
+      "active": true,
+      "need_charges": 1,
+      "need_charges_msg": "The %s's batteries are dead.",
+      "target": "tazer_spear_on"
+    },
+    "magazines": [
+      [
+        "battery",
+        [
+          "light_battery_cell",
+          "light_plus_battery_cell",
+          "light_minus_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell",
+          "light_minus_disposable_cell",
+          "light_disposable_cell"
+        ]
+      ]
+    ],
+    "magazine_well": "250 ml"
+  },
+  {
+    "id": "tazer_spear_on",
+    "type": "TOOL",
+    "category": "weapons",
+    "weapon_category": [ "SPEARS" ],
+    "symbol": "/",
+    "color": "brown",
+    "looks_like": "long_pole",
+    "name": { "str": "tazer spear (on)" },
+    "description": "A high powered stun gun attached to a sturdy pole. It is currently on.",
+    "price_postapoc": "20 USD",
+    "material": [ "wood", "plastic", "aluminum" ],
+    "techniques": [ "WBLOCK_1" ],
+    "flags": [
+      "SPEAR",
+      "REACH_ATTACK",
+      "NONCONDUCTIVE",
+      "STAB",
+      "SHEATH_SPEAR",
+      "NONCONDUCTIVE",
+      "COMBAT_NPC_USE",
+      "TRADER_AVOID",
+      "COMBAT_NPC_ON"
+    ],
+    "weight": "2750 g",
+    "volume": "4000 ml",
+    "bashing": 25,
+    "to_hit": 1,
+    "copy-from": "tazer_spear",
+    "ammo": "battery",
+    "use_action": { "type": "transform", "msg": "You press a button and the tazer turns off.", "target": "tazer_spear" },
+    "magazines": [
+      [
+        "battery",
+        [
+          "light_battery_cell",
+          "light_plus_battery_cell",
+          "light_minus_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell",
+          "light_minus_disposable_cell",
+          "light_disposable_cell"
+        ]
+      ]
+    ],
+    "magazine_well": "250 ml",
+    "revert_to": "tazer_spear",
+    "revert_msg": "The %s's batteries run dry.",
+    "attacks": [
+      {
+        "id": "BASH",
+        "to_hit": 3,
+        "damage": { "values": [ { "damage_type": "bash", "amount": 25 }, { "damage_type": "electric", "amount": 6 } ] }
+      }
+    ],
+    "power_draw": 500000
   }
 ]
 

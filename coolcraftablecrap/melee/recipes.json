@@ -127,6 +127,17 @@
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "using": [ [ "blacksmithing_advanced", 16 ] ],
     "components": [ [ [ "alloy_sheet", 4 ] ], [ [ "2x4", 2 ], [ "stick", 4 ] ], [ [ "fabric_hides_any", 2, "LIST" ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "tazer_spear",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_BASHING",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "time": "5 m",
+    "autolearn": true,
+    "components": [ [ [ "long_pole", 1 ] ], [ [ "tazer", 1 ] ], [ [ "duct_tape", 20 ], [ "string_36", 1 ], [ "string_6", 6 ] ] ]
   }
 ]
 
