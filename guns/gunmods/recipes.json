@@ -738,6 +738,55 @@
     "time": "2 h",
     "autolearn": true,
     "using": [ [ "gunmod_standard", 2 ] ]
-  }
+  },
+  {
+    "type": "nested_category",
+    "id": "barrels_modular",
+    "nested_name": "custom barrels",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_NESTED",
+    "description": "Barrels for custom firearms",
+    "nested_category_data": [
+      "barrel_short_modular",
+      "barrel_standard_modular",
+      "barrel_long_modular"
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "barrel_short_modular",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_GUNMOD",
+    "skill_used": "mechanics",
+    "skills_required": [ [ "gun", 1 ] ],
+    "difficulty": 5,
+    "time": "2 h",
+    "autolearn": true,
+    "using": [ [ "gunmod_basic", 1 ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "barrel_standard_modular",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_GUNMOD",
+    "skill_used": "mechanics",
+    "skills_required": [ [ "gun", 1 ] ],
+    "difficulty": 5,
+    "time": "2 h",
+    "autolearn": true,
+    "using": [ [ "gunmod_basic", 2 ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "barrel_long_modular",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_GUNMOD",
+    "skill_used": "mechanics",
+    "skills_required": [ [ "gun", 1 ] ],
+    "difficulty": 5,
+    "time": "2 h",
+    "autolearn": true,
+    "using": [ [ "gunmod_basic", 3 ] ]
+  },
 ]
 

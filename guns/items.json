@@ -11,7 +11,7 @@
     "volume": "2000 ml",
     "price_postapoc": "10 USD",
     "material": [ "steel", "wood" ],
-    "valid_mod_locations": [ [ "brass catcher", 1 ], [ "bore", 1 ], [ "sights", 1 ], [ "sling", 1 ], [ "stock", 1 ] ],
+    "valid_mod_locations": [ [ "brass catcher", 1 ], [ "bore", 1 ], [ "sights", 1 ], [ "sling", 1 ], [ "stock", 1 ], [ "barrel", 1] ],
     "ranged_damage": { "damage_type": "bullet", "amount": -3 },
     "ammo": "223",
     "clip_size": 0,
@@ -32,7 +32,7 @@
     "volume": "2000 ml",
     "price_postapoc": "10 USD",
     "material": [ "steel", "wood" ],
-    "valid_mod_locations": [ [ "brass catcher", 1 ], [ "bore", 1 ], [ "sights", 1 ], [ "sling", 1 ], [ "stock", 1 ] ],
+    "valid_mod_locations": [ [ "brass catcher", 1 ], [ "bore", 1 ], [ "sights", 1 ], [ "sling", 1 ], [ "stock", 1 ], [ "barrel", 1] ],
     "ranged_damage": { "damage_type": "bullet", "amount": -3 },
     "ammo": "223",
     "clip_size": 0,
@@ -54,7 +54,7 @@
     "volume": "1500 ml",
     "price_postapoc": "10 USD",
     "material": [ "steel", "wood" ],
-    "valid_mod_locations": [ [ "brass catcher", 1 ], [ "bore", 1 ], [ "sights", 1 ], [ "mechanism", 1 ], [ "sling", 1 ], [ "stock", 1 ] ],
+    "valid_mod_locations": [ [ "brass catcher", 1 ], [ "bore", 1 ], [ "sights", 1 ], [ "mechanism", 1 ], [ "sling", 1 ], [ "stock", 1 ], [ "barrel", 1] ],
     "modes": [ [ "DEFAULT", "semi", 1 ] ],
     "ranged_damage": { "damage_type": "bullet", "amount": -3 },
     "ammo": "9mm",
@@ -203,8 +203,7 @@
     "durability": 8,
     "dispersion": 100,
     "sight_dispersion": 50,
-    "reload": 100,
-    "range": 10
+    "reload": 100
   }
 ]
 

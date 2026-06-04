@@ -18,7 +18,8 @@
     "ammo_modifier": "22",
     "min_skills": [ [ "weapon", 1 ], [ "mechanics", 1 ] ],
     "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
-    "magazine_adaptor": [ [ "22", [ "mag_modular_22_small" ] ], [ "22", [ "mag_modular_22_standard" ] ], [ "22", [ "mag_modular_22_big" ] ] ]
+    "magazine_adaptor": [ [ "22", [ "mag_modular_22_small" ] ], [ "22", [ "mag_modular_22_standard" ] ], [ "22", [ "mag_modular_22_big" ] ] ],
+    "range_modifier": -10,
   },
   {
     "id": "retool_9mm_modular",
@@ -42,7 +43,8 @@
       [ "9mm", [ "mag_modular_9mm_small" ] ],
       [ "9mm", [ "mag_modular_9mm_standard" ] ],
       [ "9mm", [ "mag_modular_9mm_big" ] ]
-    ]
+    ],
+    "range_modifier": -10,
   },
   {
     "id": "retool_45_modular",
@@ -62,7 +64,8 @@
     "ammo_modifier": "45",
     "min_skills": [ [ "weapon", 1 ], [ "mechanics", 1 ] ],
     "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
-    "magazine_adaptor": [ [ "45", [ "mag_modular_45_small" ] ], [ "45", [ "mag_modular_45_standard" ] ], [ "45", [ "mag_modular_45_big" ] ] ]
+    "magazine_adaptor": [ [ "45", [ "mag_modular_45_small" ] ], [ "45", [ "mag_modular_45_standard" ] ], [ "45", [ "mag_modular_45_big" ] ] ],
+    "range_modifier": -10,
   },
   {
     "id": "retool_38_modular",
@@ -82,7 +85,8 @@
     "ammo_modifier": "38",
     "min_skills": [ [ "weapon", 1 ], [ "mechanics", 1 ] ],
     "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
-    "magazine_adaptor": [ [ "38", [ "mag_modular_38_small" ] ], [ "38", [ "mag_modular_38_standard" ] ], [ "38", [ "mag_modular_38_big" ] ] ]
+    "magazine_adaptor": [ [ "38", [ "mag_modular_38_small" ] ], [ "38", [ "mag_modular_38_standard" ] ], [ "38", [ "mag_modular_38_big" ] ] ],
+    "range_modifier": -10,
   },
   {
     "id": "retool_44_modular",
@@ -102,7 +106,8 @@
     "ammo_modifier": "44",
     "min_skills": [ [ "weapon", 1 ], [ "mechanics", 1 ] ],
     "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
-    "magazine_adaptor": [ [ "44", [ "mag_modular_44_small" ] ], [ "44", [ "mag_modular_44_standard" ] ], [ "44", [ "mag_modular_44_big" ] ] ]
+    "magazine_adaptor": [ [ "44", [ "mag_modular_44_small" ] ], [ "44", [ "mag_modular_44_standard" ] ], [ "44", [ "mag_modular_44_big" ] ] ],
+    "range_modifier": -10,
   },
   {
     "id": "retool_223_modular",
@@ -126,7 +131,8 @@
       [ "223", [ "mag_modular_223_small" ] ],
       [ "223", [ "mag_modular_223_standard" ] ],
       [ "223", [ "mag_modular_223_big" ] ]
-    ]
+    ],
+    "range_modifier": -10,
   },
   {
     "id": "retool_762_modular",
@@ -150,7 +156,8 @@
       [ "762", [ "mag_modular_762_small" ] ],
       [ "762", [ "mag_modular_762_standard" ] ],
       [ "762", [ "mag_modular_762_big" ] ]
-    ]
+    ],
+    "range_modifier": -10,
   },
   {
     "id": "retool_308_modular",
@@ -174,7 +181,8 @@
       [ "308", [ "mag_modular_308_small" ] ],
       [ "308", [ "mag_modular_308_standard" ] ],
       [ "308", [ "mag_modular_308_big" ] ]
-    ]
+    ],
+    "range_modifier": -10,
   },
   {
     "id": "retool_762R_modular",
@@ -198,7 +206,8 @@
       [ "762R", [ "mag_modular_762R_small" ] ],
       [ "762R", [ "mag_modular_762R_standard" ] ],
       [ "762R", [ "mag_modular_762R_big" ] ]
-    ]
+    ],
+    "range_modifier": -10,
   },
   {
     "id": "retool_shot_modular",
@@ -222,7 +231,8 @@
       [ "shot", [ "mag_modular_shot_small" ] ],
       [ "shot", [ "mag_modular_shot_standard" ] ],
       [ "shot", [ "mag_modular_shot_big" ] ]
-    ]
+    ],
+    "range_modifier": -15,
   },
   {
     "id": "retool_50_modular",
@@ -266,7 +276,8 @@
       [ "40x46mm", [ "mag_modular_40x46mm_small" ] ],
       [ "40x46mm", [ "mag_modular_40x46mm_standard" ] ],
       [ "40x46mm", [ "mag_modular_40x46mm_big" ] ]
-    ]
+    ],
+    "range_modifier": -10,
   },
   {
     "id": "retool_223_belt_modular",
@@ -291,7 +302,8 @@
       [ "223", [ "mag_modular_223_standard" ] ],
       [ "223", [ "mag_modular_223_big" ] ],
       [ "223", [ "belt223" ] ]
-    ]
+    ],
+    "range_modifier": -10,
   },
   {
     "id": "retool_308_belt_modular",
@@ -316,7 +328,8 @@
       [ "308", [ "mag_modular_308_standard" ] ],
       [ "308", [ "mag_modular_308_big" ] ],
       [ "308", [ "belt308" ] ]
-    ]
+    ],
+    "range_modifier": -10,
   },
   {
     "id": "retool_50_belt_modular",
@@ -341,7 +354,8 @@
       [ "50", [ "mag_modular_50_standard" ] ],
       [ "50", [ "mag_modular_50_big" ] ],
       [ "50", [ "belt50" ] ]
-    ]
+    ],
+    "range_modifier": -10,
   }
 ]
 
