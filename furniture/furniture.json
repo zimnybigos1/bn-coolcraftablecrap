@@ -1,0 +1,22 @@
+[
+  {
+    "type": "furniture",
+    "id": "f_heavy_lathe",
+    "copy-from": "f_heavy_lathe",
+    "symbol": "L",
+    "color": "light_gray",
+    "extend": { "crafting_pseudo_item": [ "grid_lathe" ], "flags": [ "BLOCKSDOOR", "TRANSPARENT", "EASY_DECONSTRUCT" ] },
+    "deconstruct": { "items": [ { "item": "heavy_lathe", "count": 1 } ] }
+  },
+
+  {
+    "type": "furniture",
+    "id": "f_drill_press",
+    "copy-from": "f_drill_press",
+    "symbol": "P",
+    "color": "light_gray",
+    "extend": { "crafting_pseudo_item": [ "grid_drill_press" ], "flags": [ "BLOCKSDOOR", "TRANSPARENT", "EASY_DECONSTRUCT" ] },
+    "deconstruct": { "items": [ { "item": "drill_press", "count": 1 } ] }
+  }
+]
+

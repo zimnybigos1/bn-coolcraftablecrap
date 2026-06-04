@@ -1,0 +1,37 @@
+[
+  {
+    "type": "construction",
+    "id": "constr_power_lathe",
+    "group": "install_power_lathe",
+    "category": "WORKSHOP",
+    "required_skills": [  ],
+    "time": "10 m",
+    "components": [ [ [ "heavy_lathe", 1 ] ] ],
+    "pre_note": "Will only work if constructed in/on a building that has an electric grid with a mounted battery.",
+    "pre_special": "check_empty",
+    "post_furniture": "f_heavy_lathe"
+  },
+  {
+    "type": "construction_group",
+    "id": "install_power_lathe",
+    "name": "Install Power Lathe"
+  },
+  {
+    "type": "construction",
+    "id": "constr_drill_press",
+    "group": "install_drill_press",
+    "category": "WORKSHOP",
+    "required_skills": [  ],
+    "time": "10 m",
+    "components": [ [ [ "drill_press", 1 ] ] ],
+    "pre_note": "Will only work if constructed in/on a building that has an electric grid with a mounted battery.",
+    "pre_special": "check_empty",
+    "post_furniture": "f_drill_press"
+  },
+  {
+    "type": "construction_group",
+    "id": "install_drill_press",
+    "name": "Install Drill Press"
+  }
+]
+

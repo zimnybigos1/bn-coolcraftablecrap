@@ -1,0 +1,103 @@
+[
+  {
+    "id": "trigger_semi_modular",
+    "type": "GUNMOD",
+    "name": { "str": "custom semi-automatic trigger" },
+    "description": "A set of handmade parts that allows a firearm to fire in semi-automatic mode. Compatible only with custom modular firearms.",
+    "weight": "150 g",
+    "volume": "250 ml",
+    "integral_volume": "0 ml",
+    "price": "10 USD",
+    "material": "steel",
+    "symbol": ":",
+    "color": "light_gray",
+    "location": "mechanism",
+    "mod_targets": [
+      "smg_modular",
+      "assault_rifle_modular",
+      "shotgun_modular",
+      "pistol_modular",
+      "battle_rifle_modular",
+      "machinegun_modular"
+    ],
+    "min_skills": [ [ "weapon", 1 ], [ "mechanics", 1 ] ],
+    "flags": [ "INSTALL_DIFFICULT" ],
+    "mode_modifier": [ [ "SEMI", "semi", 1 ] ]
+  },
+  {
+    "id": "trigger_auto_modular",
+    "type": "GUNMOD",
+    "name": { "str": "custom automatic trigger" },
+    "description": "A set of handmade parts that allows a firearm to fire in full-auto only mode. Compatible only with custom modular firearms.",
+    "weight": "150 g",
+    "volume": "250 ml",
+    "integral_volume": "0 ml",
+    "price": "10 USD",
+    "material": "steel",
+    "symbol": ":",
+    "color": "light_gray",
+    "location": "mechanism",
+    "mod_targets": [
+      "smg_modular",
+      "assault_rifle_modular",
+      "shotgun_modular",
+      "pistol_modular",
+      "battle_rifle_modular",
+      "machinegun_modular"
+    ],
+    "min_skills": [ [ "weapon", 2 ], [ "mechanics", 2 ] ],
+    "flags": [ "INSTALL_DIFFICULT" ],
+    "mode_modifier": [ [ "AUTO", "auto", 5 ] ]
+  },
+  {
+    "id": "trigger_select_modular",
+    "type": "GUNMOD",
+    "name": { "str": "custom select fire trigger" },
+    "description": "A set of handmade parts that allows a firearm to fire in automatic and semi-automatic modes. Compatible only with custom modular firearms.",
+    "weight": "150 g",
+    "volume": "250 ml",
+    "integral_volume": "0 ml",
+    "price": "10 USD",
+    "material": "steel",
+    "symbol": ":",
+    "color": "light_gray",
+    "location": "mechanism",
+    "mod_targets": [
+      "smg_modular",
+      "assault_rifle_modular",
+      "shotgun_modular",
+      "pistol_modular",
+      "battle_rifle_modular",
+      "machinegun_modular"
+    ],
+    "min_skills": [ [ "weapon", 3 ], [ "mechanics", 3 ] ],
+    "flags": [ "INSTALL_DIFFICULT" ],
+    "mode_modifier": [ [ "SEMI", "semi", 1 ], [ "AUTO", "auto", 5 ] ]
+  },
+  {
+    "id": "trigger_burst_modular",
+    "type": "GUNMOD",
+    "name": { "str": "custom burst trigger" },
+    "description": "A set of handmade parts that allows a firearm to fire in automatic, semi-automatic and burst modes. Compatible only with custom modular firearms.",
+    "weight": "150 g",
+    "volume": "250 ml",
+    "integral_volume": "0 ml",
+    "price": "10 USD",
+    "material": "steel",
+    "symbol": ":",
+    "color": "light_gray",
+    "location": "mechanism",
+    "mod_targets": [
+      "smg_modular",
+      "assault_rifle_modular",
+      "shotgun_modular",
+      "pistol_modular",
+      "battle_rifle_modular",
+      "machinegun_modular"
+    ],
+    "min_skills": [ [ "weapon", 3 ], [ "mechanics", 3 ] ],
+    "flags": [ "INSTALL_DIFFICULT" ],
+    "mode_modifier": [ [ "SEMI", "semi", 1 ], [ "AUTO", "auto", 5 ], [ "BURST", "burst", 3 ] ]
+  }
+]
+

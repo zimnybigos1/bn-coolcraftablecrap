@@ -1,0 +1,51 @@
+[
+  {
+    "id": "heavy_lathe",
+    "type": "TOOL",
+    "category": "tools_workshop",
+    "name": { "str": "power lathe" },
+    "description": "A large machining tool, needs to be plugged into the power grid to operate.",
+    "weight": "320 kg",
+    "volume": "130 L",
+    "price": "1200 USD",
+    "price_postapoc": "40 USD",
+    "to_hit": -2,
+    "bashing": 8,
+    "material": [ "steel", "plastic" ],
+    "symbol": ";",
+    "color": "light_gray",
+    "looks_like": "f_heavy_lathe"
+  },
+  {
+    "type": "TOOL",
+    "id": "grid_lathe",
+    "copy-from": "fake_item",
+    "name": { "str": "grid power lathe" },
+    "flags": [ "USES_GRID_POWER" ]
+  },
+  {
+    "id": "drill_press",
+    "type": "TOOL",
+    "category": "tools_workshop",
+    "name": { "str": "drill press" },
+    "description": "A large machining tool, needs to be plugged into the power grid to operate.",
+    "weight": "320 kg",
+    "volume": "130 L",
+    "price": "1200 USD",
+    "price_postapoc": "40 USD",
+    "to_hit": -2,
+    "bashing": 8,
+    "material": [ "steel", "plastic" ],
+    "symbol": ";",
+    "color": "light_gray",
+    "looks_like": "f_drill_press"
+  },
+  {
+    "type": "TOOL",
+    "id": "grid_drill_press",
+    "copy-from": "fake_item",
+    "name": { "str": "grid drill press" },
+    "flags": [ "USES_GRID_POWER" ]
+  }
+]
+

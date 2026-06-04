@@ -1,0 +1,86 @@
+[
+  {
+    "id": "gunsmithing_basic",
+    "type": "requirement",
+    "tools": [ [ [ "large_repairkit", 200 ] ] ],
+    "components": [
+      [ [ "spring", 1 ] ],
+      [ [ "pipe", 1 ] ],
+      [ [ "steel_lump", 1 ], [ "steel_chunk", 4 ], [ "scrap", 20 ] ],
+      [ [ "2x4", 1 ] ]
+    ]
+  },
+  {
+    "id": "gunsmithing_standard",
+    "type": "requirement",
+    "tools": [
+      [ [ "grid_drill_press", 100 ] ],
+      [ [ "grid_lathe", 100 ] ],
+      [ [ "large_repairkit", 100 ] ],
+      [ [ "forging_standard", 10, "LIST" ] ]
+    ],
+    "components": [ [ [ "spring", 1 ] ], [ [ "pipe", 1 ] ], [ [ "steel_lump", 1 ], [ "steel_chunk", 4 ], [ "scrap", 20 ] ] ]
+  },
+  {
+    "id": "gunsmithing_advanced",
+    "type": "requirement",
+    "tools": [
+      [ [ "grid_drill_press", 200 ] ],
+      [ [ "grid_lathe", 200 ] ],
+      [ [ "large_repairkit", 200 ] ],
+      [ [ "forging_standard", 20, "LIST" ] ]
+    ],
+    "components": [
+      [ [ "spring", 1 ] ],
+      [ [ "pipe", 1 ] ],
+      [ [ "steel_lump", 1 ], [ "steel_chunk", 4 ], [ "scrap", 20 ] ],
+      [ [ "alloy_sheet", 1 ] ]
+    ]
+  },
+  {
+    "id": "gunmod_basic",
+    "type": "requirement",
+    "tools": [ [ [ "large_repairkit", 200 ] ] ],
+    "components": [ [ [ "steel_chunk", 1 ], [ "scrap", 5 ] ] ]
+  },
+  {
+    "id": "gunmod_standard",
+    "type": "requirement",
+    "tools": [
+      [ [ "grid_drill_press", 100 ] ],
+      [ [ "grid_lathe", 100 ] ],
+      [ [ "large_repairkit", 100 ] ],
+      [ [ "forging_standard", 10, "LIST" ] ]
+    ],
+    "components": [ [ [ "steel_chunk", 2 ], [ "scrap", 10 ] ] ]
+  },
+  {
+    "id": "gunmod_advanced",
+    "type": "requirement",
+    "tools": [
+      [ [ "grid_drill_press", 200 ] ],
+      [ [ "grid_lathe", 200 ] ],
+      [ [ "large_repairkit", 200 ] ],
+      [ [ "forging_standard", 20, "LIST" ] ]
+    ],
+    "components": [ [ [ "steel_chunk", 3 ], [ "scrap", 15 ] ], [ [ "alloy_sheet", 1 ] ] ]
+  },
+  {
+    "id": "magazine_basic",
+    "type": "requirement",
+    "tools": [ [ [ "blacksmithing_standard", 2, "LIST" ] ], [ [ "large_repairkit", 5 ] ] ],
+    "components": [ [ [ "steel_chunk", 2 ], [ "scrap", 10 ] ] ]
+  },
+  {
+    "id": "magazine_advanced",
+    "type": "requirement",
+    "tools": [
+      [ [ "blacksmithing_standard", 2, "LIST" ] ],
+      [ [ "large_repairkit", 50 ] ],
+      [ [ "grid_drill_press", 50 ] ],
+      [ [ "grid_lathe", 50 ] ]
+    ],
+    "components": [ [ [ "steel_chunk", 2 ], [ "scrap", 10 ] ] ]
+  }
+]
+

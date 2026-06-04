@@ -1,0 +1,13 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "coolcraftablecrap",
+    "name": "Cool Craftable Crap",
+    "authors": [ "zimnybigos" ],
+    "maintainers": [ "zimnybigos" ],
+    "description": "Adds a bunch of craftable armors and weapons, mostly upgrades or alternatives to existing stuff",
+    "category": "items",
+    "version": "0.1",
+    "dependencies": [ "bn" ]
+  }
+]

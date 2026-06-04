@@ -1,0 +1,257 @@
+[
+	{
+		"id": "armor_composite",
+		"type": "ARMOR",
+		"name": {
+			"str": "superheavy composite armor"
+		},
+		"description": "A set of armor made out of plating stripped from a military vehicle. Extremely cumbersome.",
+		"weight": "50 kg",
+		"volume": "80 L",
+		"price_postapoc": "20 USD",
+		"to_hit": -3,
+		"bashing": 15,
+		"material": [
+			"hardsteel",
+			"ceramic"
+		],
+		"symbol": "[",
+		"looks_like": "depowered_armor",
+		"color": "green",
+		"covers": [
+			"legs",
+			"torso",
+			"arms"
+		],
+		"coverage": 95,
+		"encumbrance": 60,
+		"warmth": 20,
+		"material_thickness": 12,
+		"flags": [
+			"OUTER",
+			"STURDY"
+		]
+	},
+	{
+		"id": "armor_trench_superalloy",
+		"copy-from": "armor_trench",
+		"type": "ARMOR",
+		"name": {
+			"str": "superalloy trench armor"
+		},
+		"description": "Body armor forged from superalloy.  Less cumbersome than its steel counterpart.",
+		"weight": "21 kg",
+		"price_postapoc": "40 USD",
+		"material": [
+			"superalloy"
+		],
+		"color": "light_cyan",
+		"encumbrance": 35,
+	},
+	{
+		"id": "helm_trench_superalloy",
+		"copy-from": "helm_trench",
+		"type": "ARMOR",
+		"name": {
+			"str": "superalloy trench helmet"
+		},
+		"description": "Full-face helm forged from superalloy plating.  Less cumbersome than its steel counterpart.",
+		"weight": "5 kg",
+		"price_postapoc": "20 USD",
+		"material": [
+			"superalloy"
+		],
+		"color": "light_cyan",
+		"encumbrance": 35,
+	},
+
+	{
+		"type": "AMMO",
+		"id": "chain_link_superalloy",
+		"copy-from": "chain_link",
+		"category": "spare_parts",
+		"price_postapoc": "1 USD",
+		"name": {
+			"str": "superalloy chain link"
+		},
+		"color": "light_cyan",
+		"description": "Small metal rings and wires for hand-made rivets, made out of superalloy instead of iron. Suitable for constructing chainmail.",
+		"material": "superalloy",
+		"volume": "250 ml",
+		"weight": "850 mg",
+		"ammo_type": "components",
+		"count": 600
+	},
+	{
+		"id": "link_sheet_superalloy",
+		"copy-from": "link_sheet",
+		"type": "GENERIC",
+		"category": "spare_parts",
+		"name": {
+			"str": "superalloy chainmail sheet"
+		},
+		"description": "This is a sheet of riveted superalloy chainmail.  With some skill, several of these sheets could be connected to make effective armor.",
+		"weight": "750 g",
+		"volume": "500 ml",
+		"price_postapoc": "10 USD",
+		"material": "superalloy",
+		"color": "light_cyan"
+	},
+	{
+		"id": "chainmail_vest_superalloy",
+		"copy-from": "chainmail_vest",
+		"type": "ARMOR",
+		"name": {
+			"str": "superalloy chainmail vest"
+		},
+		"description": "A customized superalloy chainmail vest.  It's a sleeveless piece of chainmail with small straps designed to better distribute the weight.",
+		"weight": "5950 g",
+		"price_postapoc": "40 USD",
+		"material": [
+			"superalloy"
+		],
+		"color": "light_cyan",
+		"encumbrance": 15
+	},
+
+
+{
+  "id": "chainmail_hood_superalloy",
+  "copy-from": "chainmail_hood",
+  "type": "ARMOR",
+  "name": {
+    "str": "superalloy chainmail coif"
+  },
+  "description": "A customized superalloy chainmail hood.  Can be worn comfortably under helmets.",
+  "weight": "1700 g",
+  "price_postapoc": "50 USD",
+  "material": [
+    "superalloy"
+  ],
+  "color": "light_cyan",
+  "encumbrance": 15
+},
+
+{
+  "id": "chainmail_suit_superalloy",
+  "copy-from" : "chainmail_suit",
+  "type": "ARMOR",
+  "name": {
+    "str": "superalloy chainmail armor"
+  },
+  "description": "A fully customized superalloy chainmail suit.  The coif, shirt, arms, and leggings have been modified with straps and combined with a gambeson to deal with uneven weight distribution, cold environments and to allow them to be used separately.",
+  "weight": "13600 g",
+  "price_postapoc": "160 USD",
+  "material": [
+    "superalloy",
+    "cotton"
+  ],
+  "color": "light_cyan",
+  "encumbrance": 15,
+},
+{
+  "id": "chainmail_legs_superalloy",
+  "copy-from": "chainmail_legs",
+  "type": "ARMOR",
+  "name": {
+    "str": "superalloy chainmail leggings",
+    "str_pl": "pairs of superalloy chainmail leggings"
+  },
+  "description": "Customized superalloy chainmail legs.  Their straps keep everything in place, and the lack of toes and heels allows them to work perfectly well with footwear.",
+  "weight": "3400 g",
+  "price_postapoc": "40 USD",
+  "material": [
+    "superalloy"
+  ],
+  "color": "light_cyan",
+  "encumbrance": 15,
+},
+{
+  "id": "chainmail_hauberk_superalloy",
+  "copy-from": "chainmail_hauberk",
+  "type": "ARMOR",
+  "name": {
+    "str": "superalloy chainmail hauberk"
+  },
+  "description": "A fully customized superalloy chainmail outfit, leaving the head uncovered.  The shirt, arms, and leggings have been modified with straps and combined with a gambeson to deal with uneven weight distribution, cold environments and to allow them to be used separately.",
+  "weight": "11900 g",
+  "price_postapoc": "60 USD",
+  "material": [
+    "superalloy",
+    "cotton"
+  ],
+  "color": "light_cyan",
+  "encumbrance": 15,
+
+},
+{
+  "id": "chainmail_arms_superalloy",
+  "copy-from": "chainmail_arms",
+  "type": "ARMOR",
+  "name": {
+    "str": "pair of superalloy chainmail sleeves",
+    "str_pl": "pairs of superalloy chainmail sleeves"
+  },
+  "description": "Customized superalloy chainmail arms.  Each sleeve has straps to connect them with each other.  The lack of fingers makes them less cumbersome and allows them to be used with gloves.",
+  "weight": "1500 g",
+  "price_postapoc": "50 USD",
+  "material": [
+    "superalloy"
+  ],
+  "color": "light_cyan",
+  "encumbrance": 15,
+},
+{
+  "id": "chainmail_feet_superalloy",
+  "copy-from": "chainmail_feet",
+  "type": "ARMOR",
+  "name": {
+    "str": "pair of superalloy chainmail chausses",
+    "str_pl": "pairs of superalloy chainmail chausses"
+  },
+  "description": "Customized superalloy chainmail chausses that cover the feet, like booties made of chainmail.",
+  "weight": "1700 g",
+  "price_postapoc": "40 USD",
+  "material": [
+    "superalloy",
+    "leather"
+  ],
+  "color": "light_cyan",
+  "encumbrance": 15,
+},
+{
+  "id": "chainmail_hands_superalloy",
+  "copy-from": "chainmail_hands",
+  "type": "ARMOR",
+  "name": {
+    "str": "pair of superalloy chainmail gloves",
+    "str_pl": "pairs of superalloy chainmail gloves"
+  },
+  "description": "Customized superalloy chainmail gloves.  They fully enclose the fingers and provide excellent protection, but are somewhat cumbersome.",
+  "weight": "1700 g",
+  "price_postapoc": "50 USD",
+  "material": [
+    "superalloy",
+    "leather"
+  ],
+  "color": "light_cyan",
+  "encumbrance": 15,
+},
+{
+  "id": "chainmail_suit_faraday_superalloy",
+  "copy-from": "chainmail_suit_faraday",
+  "type": "ARMOR",
+  "name": {
+    "str": "faraday superalloy suit"
+  },
+  "description": "A fully customized superalloy chainmail suit that can be worn over your normal clothing.  The suit is conductively interconnected, protecting against electricity.",
+  "weight": "13600 g",
+  "price_postapoc": "180 USD",
+  "material": [
+    "superalloy",
+    "cotton"
+  ],
+  "color": "light_cyan",
+  "encumbrance": 25,
+},
+]

@@ -1,0 +1,168 @@
+[
+{
+  "id": "katana_superalloy",
+  "copy-from": "katana",
+  "type": "GENERIC",
+  "name": {
+    "str": "superalloy katana"
+  },
+  "description": "A modernized version of a Japanese katana, forged from superalloy.",
+  "weight": "935 g",
+  "price_postapoc": "70 USD",
+  "to_hit": 2,
+  "bashing": 6,
+  "cutting": 36,
+  "material": "superalloy",
+  "color": "light_cyan"
+},
+{
+  "id": "nodachi_superalloy",
+  "copy-from":"nodachi",
+  "type": "GENERIC",
+  "name": {
+    "str_sp": "superalloy nodachi"
+  },
+  "description": "A modernized version of a Japanese nodachi, forged from superalloy.",
+  "weight": "2380 g",
+  "price_postapoc": "240 USD",
+  "to_hit": 2,
+  "bashing": 7,
+  "cutting": 49,
+  "material": "superalloy",
+  "color": "light_cyan"
+},
+
+
+{
+  "id": "wakizashi_superalloy",
+  "copy-from":"wakizashi",
+  "type": "GENERIC",
+  "name": {
+    "str_sp": "superalloy wakizashi"
+  },
+  "description": "A modernized version of a Japanese wakizashi, forged from superalloy.",
+  "weight": "709 g",
+  "price_postapoc": "45 USD",
+  "to_hit": 1,
+  "bashing": 3,
+  "cutting": 32,
+  "material": "superalloy",
+  "color": "light_cyan"
+},
+{
+  "id": "arming_sword_superalloy",
+  "copy-from":"arming_sword",
+  "type": "GENERIC",
+  "name": {
+    "str": "superalloy arming sword"
+  },
+  "description": "A modernized version of a medieval arming sword, forged from superalloy.",
+  "price_postapoc": "70 USD",
+  "weight": "1150 g",
+  "volume": "2 L",
+  "bashing": 15,
+  "cutting": 33,
+  "to_hit": 1,
+  "material": "superalloy",
+  "color": "light_cyan"
+},
+
+
+{
+  "id": "broadsword_superalloy",
+  "copy-from": "broadsword",
+  "type": "GENERIC",
+  "name": {
+    "str": "superalloy broadsword"
+  },
+  "description": "A modernized version of a broadsword, forged from superalloy.",
+  "weight": "960 g",
+  "price_postapoc": "100 USD",
+  "to_hit": 2,
+  "bashing": 9,
+  "cutting": 37,
+  "material": "superalloy",
+  "color": "light_cyan"
+},
+{
+  "id": "cavalry_sabre_superalloy",
+  "copy-from": "cavalry_sabre",
+  "type": "GENERIC",
+  "name": {
+    "str": "superalloy cavalry saber"
+  },
+  "description": "A modernized version of a cavalry saber, forged from superalloy.",
+  "weight": "770 g",
+  "price_postapoc": "80 USD",
+  "to_hit": 1,
+  "bashing": 7,
+  "cutting": 30,
+  "material": "superalloy",
+  "color": "light_cyan",
+},
+{
+  "id": "cutlass_superalloy",
+  "copy-from": "cutlass",
+  "type": "GENERIC",
+  "name": {
+    "str": "superalloy cutlass",
+    "str_pl": "superalloy cutlasses"
+  },
+  "description": "A modernized version of a cutlass, forged from superalloy.",
+  "weight": "830 g",
+  "price_postapoc": "70 USD",
+  "to_hit": 2,
+  "bashing": 9,
+  "cutting": 29,
+  "material": "superalloy",
+  "color": "light_cyan",
+},
+{
+  "id": "estoc_superalloy",
+  "copy-from": "estoc",
+  "type": "GENERIC",
+  "name": {
+    "str": "superalloy estoc"
+  },
+  "description": "A modernized version of a medieval estoc, forged from superalloy.",
+  "price_postapoc": "100 USD",
+  "material": "superalloy",
+  "weight": "1500 g",
+  "to_hit": 1,
+  "bashing": 10,
+  "cutting": 42,
+  "color": "light_cyan",
+},
+{
+  "id": "longsword_superalloy",
+  "copy-from": "longsword",
+  "type": "GENERIC",
+  "name": {
+    "str": "superalloy longsword"
+  },
+  "description": "A modernized version of a medieval longsword, forged from superalloy.",
+  "price": "1300 USD",
+  "price_postapoc": "60 USD",
+  "bashing": 14,
+  "cutting": 36,
+  "to_hit": 2,
+  "material": "superalloy",
+  "color": "light_cyan"
+},
+{
+  "id": "zweihander_superalloy",
+  "copy-from": "zweihander",
+  "type": "GENERIC",
+  "name": {
+    "str": "superalloy zweihaender"
+  },
+  "description": "A modernized version of a medieval zweihaender, forged from superalloy.",
+  "weight": "2600 g",
+  "price_postapoc": "190 USD",
+  "to_hit": 2,
+  "bashing": 19,
+  "cutting": 41,
+  "material": "superalloy",
+  "color": "light_cyan"
+}
+]
