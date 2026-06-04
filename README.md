@@ -1,4 +1,4 @@
-# bn-coolcraftablecrap
+# Cool Craftable Crap
 
 A mod for Cataclysm: Bright Nights.
 
