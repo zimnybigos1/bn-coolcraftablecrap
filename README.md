@@ -10,7 +10,7 @@ Currently adds:
 - 2 pieces of superalloy trench armor
 - Superheavy composite armor
 - 10 customizable guns with 21 interchangeable parts
-- 36 craftable magazines
+- 36 magazines
 - usable lathe and drill press
 
 
