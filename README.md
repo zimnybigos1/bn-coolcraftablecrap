@@ -9,7 +9,8 @@ Currently adds:
 - 9 pieces of superalloy chainmail
 - 2 pieces of superalloy trench armor
 - Superheavy composite armor
-- 10 customizable guns with 57 interchangeable parts
+- 10 customizable guns with 21 interchangeable parts
+- 36 craftable magazines
 - usable lathe and drill press
 
 
