@@ -234,6 +234,19 @@
       [ [ "chainmail_feet_superalloy", 1 ] ],
       [ [ "cable", 200 ] ]
     ]
+  },
+  {
+    "result": "cloak_kevlar",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 4,
+    "time": "25 m",
+    "reversible": true,
+    "autolearn": true,
+    "using": [ [ "sewing_advanced", 18 ] ],
+    "components": [ [ [ "kevlar_plate", 20 ] ] ]
   }
 ]
 

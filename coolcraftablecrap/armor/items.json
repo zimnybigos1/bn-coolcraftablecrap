@@ -179,6 +179,27 @@
     "material": [ "superalloy", "cotton" ],
     "color": "light_cyan",
     "encumbrance": 25
+  },
+  {
+    "id": "cloak_kevlar",
+    "type": "ARMOR",
+    "name": { "str": "Kevlar cloak" },
+    "description": "A heavy cloak made of Kevlar. Slightly stiffer and more cumbersome than an ordinary cloak.",
+    "weight": "3400 g",
+    "volume": "3 L",
+    "price_postapoc": "10 USD",
+    "to_hit": -1,
+    "material": [ "kevlar" ],
+    "symbol": "[",
+    "looks_like": "coat_rain",
+    "color": "green",
+    "covers": [ "torso", "arms", "legs" ],
+    "coverage": 65,
+    "encumbrance": 7,
+    "warmth": 30,
+    "material_thickness": 2,
+    "environmental_protection": 4,
+    "flags": [ "OVERSIZE", "HOOD", "OUTER", "WATERPROOF", "RAINPROOF", "ALLOWS_TAIL_SNAKE" ]
   }
 ]
 
