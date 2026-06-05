@@ -631,6 +631,81 @@
       [ "40x53mm", [ "belt40mm" ] ]
     ],
     "range_modifier": -10
-  }
+  },
+  {
+    "id": "retool_5x50_modular",
+    "type": "GUNMOD",
+    "name": { "str": "custom 5x50mm receiver" },
+    "description": "A set of handmade parts that allows a firearm to chamber and fire Rivtech 5x50mm cartridges. Compatible only with custom modular firearms.",
+    "weight": "150 g",
+    "volume": "250 ml",
+    "integral_volume": "100 ml",
+    "integral_weight": "150 g",
+    "price": "10 USD",
+    "material": "steel",
+    "symbol": ":",
+    "color": "light_gray",
+    "location": "bore",
+    "mod_targets": [ "boltaction_modular", "assault_rifle_modular", "battle_rifle_modular", "machinegun_modular", "sniper_modular" ],
+    "ammo_modifier": "5x50",
+    "min_skills": [ [ "weapon", 4 ], [ "mechanics", 4 ] ],
+    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
+    "magazine_adaptor": [
+      [ "5x50", [ "mag_modular_5x50_small" ] ],
+      [ "5x50", [ "mag_modular_5x50_standard" ] ],
+      [ "5x50", [ "mag_modular_5x50_big" ] ]
+    ],
+    "range_modifier": -10
+  },
+  {
+    "id": "retool_20x66mm_modular",
+    "type": "GUNMOD",
+    "name": { "str": "custom 20x66mm receiver" },
+    "description": "A set of handmade parts that allows a firearm to chamber and fire Rivtech 20x66mm cartridges. Compatible only with custom modular firearms.",
+    "weight": "150 g",
+    "volume": "250 ml",
+    "integral_volume": "100 ml",
+    "integral_weight": "150 g",
+    "price": "10 USD",
+    "material": "steel",
+    "symbol": ":",
+    "color": "light_gray",
+    "location": "bore",
+    "mod_targets": [ "pumpaction_modular", "shotgun_modular" ],
+    "ammo_modifier": "20x66mm",
+    "min_skills": [ [ "weapon", 4 ], [ "mechanics", 4 ] ],
+    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
+    "magazine_adaptor": [
+      [ "20x66mm", [ "mag_modular_20x66mm_small" ] ],
+      [ "20x66mm", [ "mag_modular_20x66mm_standard" ] ],
+      [ "20x66mm", [ "mag_modular_20x66mm_big" ] ]
+    ],
+    "range_modifier": -10
+  },
+  {
+    "id": "retool_8x40mm_modular",
+    "type": "GUNMOD",
+    "name": { "str": "custom 8x40mm receiver" },
+    "description": "A set of handmade parts that allows a firearm to chamber and fire Rivtech 8x40mm cartridges. Compatible only with custom modular firearms.",
+    "weight": "150 g",
+    "volume": "250 ml",
+    "integral_volume": "100 ml",
+    "integral_weight": "150 g",
+    "price": "10 USD",
+    "material": "steel",
+    "symbol": ":",
+    "color": "light_gray",
+    "location": "bore",
+    "mod_targets": [ "pumpaction_modular", "shotgun_modular" ],
+    "ammo_modifier": "8x40mm",
+    "min_skills": [ [ "weapon", 4 ], [ "mechanics", 4 ] ],
+    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
+    "magazine_adaptor": [
+      [ "8x40mm", [ "mag_modular_8x40mm_small" ] ],
+      [ "8x40mm", [ "mag_modular_8x40mm_standard" ] ],
+      [ "8x40mm", [ "mag_modular_8x40mm_big" ] ]
+    ],
+    "range_modifier": -10
+  },
 ]
 

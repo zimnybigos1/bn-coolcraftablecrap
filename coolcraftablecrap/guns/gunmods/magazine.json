@@ -986,8 +986,8 @@
     "color": "light_gray",
     "ammo_type": [ "3006" ],
     "capacity": 20,
-    "reliability": 8,
-    "flags": [ "MAG_COMPACT" ]
+    "reliability": 7,
+    "flags": [ "MAG_BULKY" ]
   },
   {
     "id": "mag_modular_300_big",
@@ -1004,8 +1004,8 @@
     "color": "light_gray",
     "ammo_type": [ "300" ],
     "capacity": 20,
-    "reliability": 8,
-    "flags": [ "MAG_COMPACT" ]
+    "reliability": 7,
+    "flags": [ "MAG_BULKY" ]
   },
   {
     "id": "mag_modular_277_big",
@@ -1022,8 +1022,8 @@
     "color": "light_gray",
     "ammo_type": [ "277" ],
     "capacity": 20,
-    "reliability": 8,
-    "flags": [ "MAG_COMPACT" ]
+    "reliability": 7,
+    "flags": [ "MAG_BULKY" ]
   },
   {
     "id": "mag_modular_410shot_big",
@@ -1040,8 +1040,8 @@
     "color": "light_gray",
     "ammo_type": [ "410shot" ],
     "capacity": 20,
-    "reliability": 8,
-    "flags": [ "MAG_COMPACT" ]
+    "reliability": 7,
+    "flags": [ "MAG_BULKY" ]
   },
   {
     "id": "mag_modular_32_big",
@@ -1058,8 +1058,8 @@
     "color": "light_gray",
     "ammo_type": [ "32" ],
     "capacity": 20,
-    "reliability": 8,
-    "flags": [ "MAG_COMPACT" ]
+    "reliability": 7,
+    "flags": [ "MAG_BULKY" ]
   },
   {
     "id": "mag_modular_357sig_big",
@@ -1076,8 +1076,8 @@
     "color": "light_gray",
     "ammo_type": [ "357sig" ],
     "capacity": 20,
-    "reliability": 8,
-    "flags": [ "MAG_COMPACT" ]
+    "reliability": 7,
+    "flags": [ "MAG_BULKY" ]
   },
   {
     "id": "mag_modular_380_big",
@@ -1094,8 +1094,8 @@
     "color": "light_gray",
     "ammo_type": [ "380" ],
     "capacity": 20,
-    "reliability": 8,
-    "flags": [ "MAG_COMPACT" ]
+    "reliability": 7,
+    "flags": [ "MAG_BULKY" ]
   },
   {
     "id": "mag_modular_40_big",
@@ -1112,8 +1112,8 @@
     "color": "light_gray",
     "ammo_type": [ "40" ],
     "capacity": 20,
-    "reliability": 8,
-    "flags": [ "MAG_COMPACT" ]
+    "reliability": 7,
+    "flags": [ "MAG_BULKY" ]
   },
   {
     "id": "mag_modular_40x53mm_big",
@@ -1130,8 +1130,170 @@
     "color": "light_gray",
     "ammo_type": [ "40x53mm" ],
     "capacity": 8,
+    "reliability": 7,
+    "flags": [ "MAG_BULKY" ]
+  },
+  {
+    "id": "mag_modular_5x50_small",
+    "type": "MAGAZINE",
+    "name": { "str": "small handmade 5x50 magazine" },
+    "description": "A low-capacity 10 round magazine compatible with custom modular firearms",
+    "weight": "100 g",
+    "volume": "100 ml",
+    "integral_weight": "100 g",
+    "integral_volume": "50 ml",
+    "price_postapoc": "250 cent",
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "5x50" ],
+    "capacity": 10,
     "reliability": 8,
     "flags": [ "MAG_COMPACT" ]
+  },
+  {
+    "id": "mag_modular_20x66mm_small",
+    "type": "MAGAZINE",
+    "name": { "str": "small handmade 20x66mm magazine" },
+    "description": "A low-capacity 5 round magazine compatible with custom modular firearms",
+    "weight": "100 g",
+    "volume": "100 ml",
+    "integral_weight": "100 g",
+    "integral_volume": "50 ml",
+    "price_postapoc": "250 cent",
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "20x66mm" ],
+    "capacity": 5,
+    "reliability": 8,
+    "flags": [ "MAG_COMPACT" ]
+  },
+  {
+    "id": "mag_modular_8x40mm_small",
+    "type": "MAGAZINE",
+    "name": { "str": "small handmade 8x40mm magazine" },
+    "description": "A low-capacity 5 round magazine compatible with custom modular firearms",
+    "weight": "100 g",
+    "volume": "100 ml",
+    "integral_weight": "100 g",
+    "integral_volume": "50 ml",
+    "price_postapoc": "250 cent",
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "8x40mm" ],
+    "capacity": 5,
+    "reliability": 8,
+    "flags": [ "MAG_COMPACT" ]
+  },
+  {
+    "id": "mag_modular_5x50_standard",
+    "type": "MAGAZINE",
+    "name": { "str": "standard handmade 5x50 magazine" },
+    "description": "A standard-capacity 20 round magazine compatible with custom modular firearms",
+    "weight": "200 g",
+    "volume": "200 ml",
+    "integral_weight": "200 g",
+    "integral_volume": "100 ml",
+    "price_postapoc": "250 cent",
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "5x50" ],
+    "capacity": 20,
+    "reliability": 8,
+    "flags": [ "MAG_COMPACT" ]
+  },
+  {
+    "id": "mag_modular_20x66mm_standard",
+    "type": "MAGAZINE",
+    "name": { "str": "standard handmade 20x66mm magazine" },
+    "description": "A standard-capacity 10 round magazine compatible with custom modular firearms",
+    "weight": "200 g",
+    "volume": "200 ml",
+    "integral_weight": "200 g",
+    "integral_volume": "100 ml",
+    "price_postapoc": "250 cent",
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "20x66mm" ],
+    "capacity": 10,
+    "reliability": 8,
+    "flags": [ "MAG_COMPACT" ]
+  },
+  {
+    "id": "mag_modular_8x40mm_standard",
+    "type": "MAGAZINE",
+    "name": { "str": "standard handmade 8x40mm magazine" },
+    "description": "A standard-capacity 10 round magazine compatible with custom modular firearms",
+    "weight": "200 g",
+    "volume": "200 ml",
+    "integral_weight": "200 g",
+    "integral_volume": "100 ml",
+    "price_postapoc": "250 cent",
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "8x40mm" ],
+    "capacity": 10,
+    "reliability": 8,
+    "flags": [ "MAG_COMPACT" ]
+  },
+  {
+    "id": "mag_modular_5x50_big",
+    "type": "MAGAZINE",
+    "name": { "str": "large handmade 5x50 magazine" },
+    "description": "A high-capacity 40 round magazine compatible with custom modular firearms",
+    "weight": "200 g",
+    "volume": "200 ml",
+    "integral_weight": "200 g",
+    "integral_volume": "100 ml",
+    "price_postapoc": "250 cent",
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "5x50" ],
+    "capacity": 20,
+    "reliability": 7,
+    "flags": [ "MAG_BULKY" ]
+  },
+  {
+    "id": "mag_modular_20x66mm_big",
+    "type": "MAGAZINE",
+    "name": { "str": "large handmade 20x66mm magazine" },
+    "description": "A high-capacity 20 round magazine compatible with custom modular firearms",
+    "weight": "200 g",
+    "volume": "200 ml",
+    "integral_weight": "200 g",
+    "integral_volume": "100 ml",
+    "price_postapoc": "250 cent",
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "20x66mm" ],
+    "capacity": 10,
+    "reliability": 7,
+    "flags": [ "MAG_BULKY" ]
+  },
+  {
+    "id": "mag_modular_8x40mm_big",
+    "type": "MAGAZINE",
+    "name": { "str": "large handmade 8x40mm magazine" },
+    "description": "A high-capacity 20 round magazine compatible with custom modular firearms",
+    "weight": "200 g",
+    "volume": "200 ml",
+    "integral_weight": "200 g",
+    "integral_volume": "100 ml",
+    "price_postapoc": "250 cent",
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "8x40mm" ],
+    "capacity": 10,
+    "reliability": 7,
+    "flags": [ "MAG_BULKY" ]
   }
 ]
 
