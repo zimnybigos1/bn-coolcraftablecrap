@@ -1,0 +1,13 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "coolcraftablecrap_exoticammo",
+    "name": "Cool Craftable Crap - Exotic ammo types patchmod",
+    "authors": [ "zimnybigos" ],
+    "maintainers": [ "zimnybigos" ],
+    "description": "Adds Exotic ammo gun parts for custom guns",
+    "category": "items",
+    "version": "1.0",
+    "dependencies": [ "bn", "exotic_ammo" ]
+  }
+]
