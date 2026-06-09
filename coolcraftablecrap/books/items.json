@@ -1,0 +1,21 @@
+[
+  {
+    "id": "manual_ccc",
+    "type": "BOOK",
+    "copy-from": "base_book",
+    "name": { "str": "Cool Craftable Crap Compendium", "str_pl": "copies of Cool Craftable Crap Compendium" },
+    "description": "A catalogue of GENIUS, INNOVATIVE ideas that you are now ashamed you didn't come up with yourself.",
+    "weight": "510 g",
+    "volume": "750 ml",
+    "price": "22 USD",
+    "price_postapoc": "5 USD",
+    "color": "green",
+    "skill": "fabrication",
+    "required_level": 5,
+    "max_level": 6,
+    "intelligence": 1,
+    "time": "30 m",
+    "fun": 1
+  }
+]
+

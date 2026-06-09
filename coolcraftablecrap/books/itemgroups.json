@@ -1,0 +1,9 @@
+[
+  {
+    "type": "item_group",
+    "id": "manuals",
+    "subtype": "distribution",
+    "entries": [ { "item": "manual_ccc", "prob": 10 } ] 
+  }
+]
+
