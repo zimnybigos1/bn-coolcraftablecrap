@@ -33,6 +33,7 @@
     "difficulty": 5,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunmod_basic", 2 ] ]
   },
   {
@@ -45,6 +46,7 @@
     "difficulty": 5,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunmod_basic", 2 ] ]
   },
   {
@@ -57,6 +59,7 @@
     "difficulty": 7,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunmod_standard", 2 ] ]
   },
   {
@@ -69,6 +72,7 @@
     "difficulty": 6,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunmod_standard", 2 ] ]
   },
   {
@@ -81,6 +85,7 @@
     "difficulty": 6,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunmod_standard", 2 ] ]
   },
   {
@@ -93,6 +98,7 @@
     "difficulty": 6,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunmod_standard", 2 ] ]
   },
   {
@@ -105,6 +111,7 @@
     "difficulty": 6,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunmod_standard", 2 ] ]
   },
   {
@@ -117,6 +124,7 @@
     "difficulty": 6,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunmod_standard", 2 ] ]
   },
   {
@@ -129,6 +137,7 @@
     "difficulty": 6,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunmod_standard", 2 ] ]
   },
   {
@@ -141,6 +150,7 @@
     "difficulty": 6,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunmod_standard", 2 ] ]
   },
   {
@@ -153,6 +163,7 @@
     "difficulty": 6,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunmod_standard", 2 ] ]
   },
   {
@@ -223,6 +234,7 @@
     "difficulty": 3,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "magazine_basic", 1 ] ]
   },
   {
@@ -235,6 +247,7 @@
     "difficulty": 3,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "magazine_advanced", 1 ] ]
   },
   {
@@ -247,6 +260,7 @@
     "difficulty": 3,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "magazine_advanced", 2 ] ]
   },
   {
@@ -259,6 +273,7 @@
     "difficulty": 3,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "magazine_basic", 1 ] ]
   },
   {
@@ -271,6 +286,7 @@
     "difficulty": 3,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "magazine_advanced", 1 ] ]
   },
   {
@@ -283,6 +299,7 @@
     "difficulty": 3,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "magazine_advanced", 2 ] ]
   },
   {
@@ -295,6 +312,7 @@
     "difficulty": 3,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "magazine_basic", 1 ] ]
   },
   {
@@ -307,6 +325,7 @@
     "difficulty": 3,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "magazine_advanced", 1 ] ]
   },
   {
@@ -319,6 +338,7 @@
     "difficulty": 3,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "magazine_advanced", 2 ] ]
   },
   {
@@ -331,6 +351,7 @@
     "difficulty": 3,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "magazine_basic", 1 ] ]
   },
   {
@@ -343,6 +364,7 @@
     "difficulty": 3,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "magazine_advanced", 1 ] ]
   },
   {
@@ -355,6 +377,7 @@
     "difficulty": 3,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "magazine_advanced", 2 ] ]
   },
   {
@@ -367,6 +390,7 @@
     "difficulty": 3,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "magazine_basic", 1 ] ]
   },
   {
@@ -379,6 +403,7 @@
     "difficulty": 3,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "magazine_advanced", 1 ] ]
   },
   {
@@ -391,6 +416,7 @@
     "difficulty": 3,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "magazine_advanced", 2 ] ]
   },
   {
@@ -403,6 +429,7 @@
     "difficulty": 3,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "magazine_basic", 1 ] ]
   },
   {
@@ -415,6 +442,7 @@
     "difficulty": 3,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "magazine_advanced", 1 ] ]
   },
   {
@@ -427,6 +455,7 @@
     "difficulty": 3,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "magazine_advanced", 2 ] ]
   },
   {
@@ -439,6 +468,7 @@
     "difficulty": 3,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "magazine_basic", 1 ] ]
   },
   {
@@ -451,6 +481,7 @@
     "difficulty": 3,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "magazine_advanced", 1 ] ]
   },
   {
@@ -463,6 +494,7 @@
     "difficulty": 3,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "magazine_advanced", 2 ] ]
   },
   {
@@ -475,6 +507,7 @@
     "difficulty": 3,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "magazine_basic", 1 ] ]
   },
   {
@@ -487,6 +520,7 @@
     "difficulty": 3,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "magazine_advanced", 1 ] ]
   },
   {
@@ -499,6 +533,7 @@
     "difficulty": 3,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "magazine_advanced", 2 ] ]
   },
   {
@@ -511,6 +546,7 @@
     "difficulty": 3,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "magazine_basic", 1 ] ]
   },
   {
@@ -523,6 +559,7 @@
     "difficulty": 3,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "magazine_advanced", 1 ] ]
   },
   {
@@ -535,6 +572,7 @@
     "difficulty": 3,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "magazine_advanced", 2 ] ]
   },
   {
@@ -547,6 +585,7 @@
     "difficulty": 3,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "magazine_basic", 1 ] ]
   },
   {
@@ -559,6 +598,7 @@
     "difficulty": 3,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "magazine_advanced", 1 ] ]
   },
   {
@@ -571,6 +611,7 @@
     "difficulty": 3,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "magazine_advanced", 2 ] ]
   },
   {
@@ -583,6 +624,7 @@
     "difficulty": 3,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "magazine_basic", 1 ] ]
   },
   {
@@ -595,6 +637,7 @@
     "difficulty": 3,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "magazine_advanced", 1 ] ]
   },
   {
@@ -607,6 +650,7 @@
     "difficulty": 3,
     "time": "2 h",
     "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "magazine_advanced", 2 ] ]
   }
 ]

@@ -28,7 +28,8 @@
     "skills_required": [ "gun", 3 ],
     "difficulty": 5,
     "time": "4 h",
-    "autolearn": true,
+       "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunsmithing_basic", 2 ] ]
   },
   {
@@ -40,7 +41,8 @@
     "skills_required": [ "gun", 3 ],
     "difficulty": 5,
     "time": "4 h",
-    "autolearn": true,
+       "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunsmithing_basic", 2 ] ]
   },
   {
@@ -52,7 +54,8 @@
     "skills_required": [ "gun", 3 ],
     "difficulty": 5,
     "time": "4 h",
-    "autolearn": true,
+       "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunsmithing_basic", 1 ] ]
   },
   {
@@ -64,7 +67,8 @@
     "skills_required": [ "gun", 3 ],
     "difficulty": 6,
     "time": "6 h",
-    "autolearn": true,
+       "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunsmithing_standard", 2 ] ]
   },
   {
@@ -76,7 +80,8 @@
     "skills_required": [ "gun", 3 ],
     "difficulty": 6,
     "time": "6 h",
-    "autolearn": true,
+       "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunsmithing_standard", 2 ] ]
   },
   {
@@ -88,7 +93,8 @@
     "skills_required": [ "gun", 3 ],
     "difficulty": 6,
     "time": "6 h",
-    "autolearn": true,
+       "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunsmithing_standard", 1 ] ]
   },
   {
@@ -100,7 +106,8 @@
     "skills_required": [ "gun", 3 ],
     "difficulty": 6,
     "time": "6 h",
-    "autolearn": true,
+       "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunsmithing_standard", 3 ] ]
   },
   {
@@ -112,7 +119,8 @@
     "skills_required": [ "gun", 3 ],
     "difficulty": 7,
     "time": "10 h",
-    "autolearn": true,
+       "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunsmithing_advanced", 3 ] ]
   },
   {
@@ -124,7 +132,8 @@
     "skills_required": [ "gun", 3 ],
     "difficulty": 7,
     "time": "10 h",
-    "autolearn": true,
+       "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunsmithing_advanced", 4 ] ]
   },
   {
@@ -136,7 +145,8 @@
     "skills_required": [ "gun", 3 ],
     "difficulty": 7,
     "time": "10 h",
-    "autolearn": true,
+       "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunsmithing_advanced", 3 ] ]
   }
 ]
