@@ -1,6 +1,5 @@
 [
   {
-    "//": "all irremovable because there is a bug that lets you keep old ammo after changing the caliber",
     "id": "retool_22_modular",
     "type": "GUNMOD",
     "name": { "str": "custom .22 receiver" },
@@ -17,7 +16,7 @@
     "mod_targets": [ "boltaction_modular", "smg_modular", "assault_rifle_modular", "pistol_modular" ],
     "ammo_modifier": "22",
     "min_skills": [ [ "weapon", 1 ], [ "mechanics", 1 ] ],
-    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
+    "flags": [ "INSTALL_DIFFICULT" ],
     "magazine_adaptor": [ [ "22", [ "mag_modular_22_small" ] ], [ "22", [ "mag_modular_22_standard" ] ], [ "22", [ "mag_modular_22_big" ] ] ],
     "range_modifier": -10
   },
@@ -38,7 +37,7 @@
     "mod_targets": [ "boltaction_modular", "smg_modular", "assault_rifle_modular", "pistol_modular" ],
     "ammo_modifier": "9mm",
     "min_skills": [ [ "weapon", 1 ], [ "mechanics", 1 ] ],
-    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
+    "flags": [ "INSTALL_DIFFICULT" ],
     "magazine_adaptor": [
       [ "9mm", [ "mag_modular_9mm_small" ] ],
       [ "9mm", [ "mag_modular_9mm_standard" ] ],
@@ -63,7 +62,7 @@
     "mod_targets": [ "boltaction_modular", "smg_modular", "assault_rifle_modular", "pistol_modular" ],
     "ammo_modifier": "45",
     "min_skills": [ [ "weapon", 1 ], [ "mechanics", 1 ] ],
-    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
+    "flags": [ "INSTALL_DIFFICULT" ],
     "magazine_adaptor": [ [ "45", [ "mag_modular_45_small" ] ], [ "45", [ "mag_modular_45_standard" ] ], [ "45", [ "mag_modular_45_big" ] ] ],
     "range_modifier": -10
   },
@@ -84,7 +83,7 @@
     "mod_targets": [ "boltaction_modular", "smg_modular", "assault_rifle_modular", "pistol_modular" ],
     "ammo_modifier": "38",
     "min_skills": [ [ "weapon", 1 ], [ "mechanics", 1 ] ],
-    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
+    "flags": [ "INSTALL_DIFFICULT" ],
     "magazine_adaptor": [ [ "38", [ "mag_modular_38_small" ] ], [ "38", [ "mag_modular_38_standard" ] ], [ "38", [ "mag_modular_38_big" ] ] ],
     "range_modifier": -10
   },
@@ -105,7 +104,7 @@
     "mod_targets": [ "boltaction_modular", "smg_modular", "assault_rifle_modular", "pistol_modular" ],
     "ammo_modifier": "44",
     "min_skills": [ [ "weapon", 1 ], [ "mechanics", 1 ] ],
-    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
+    "flags": [ "INSTALL_DIFFICULT" ],
     "magazine_adaptor": [ [ "44", [ "mag_modular_44_small" ] ], [ "44", [ "mag_modular_44_standard" ] ], [ "44", [ "mag_modular_44_big" ] ] ],
     "range_modifier": -10
   },
@@ -126,7 +125,7 @@
     "mod_targets": [ "boltaction_modular", "assault_rifle_modular", "battle_rifle_modular", "machinegun_modular", "sniper_modular" ],
     "ammo_modifier": "223",
     "min_skills": [ [ "weapon", 2 ], [ "mechanics", 2 ] ],
-    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
+    "flags": [ "INSTALL_DIFFICULT" ],
     "magazine_adaptor": [
       [ "223", [ "mag_modular_223_small" ] ],
       [ "223", [ "mag_modular_223_standard" ] ],
@@ -151,7 +150,7 @@
     "mod_targets": [ "boltaction_modular", "assault_rifle_modular", "battle_rifle_modular", "machinegun_modular", "sniper_modular" ],
     "ammo_modifier": "762",
     "min_skills": [ [ "weapon", 2 ], [ "mechanics", 2 ] ],
-    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
+    "flags": [ "INSTALL_DIFFICULT" ],
     "magazine_adaptor": [
       [ "762", [ "mag_modular_762_small" ] ],
       [ "762", [ "mag_modular_762_standard" ] ],
@@ -176,7 +175,7 @@
     "mod_targets": [ "boltaction_modular", "assault_rifle_modular", "battle_rifle_modular", "machinegun_modular", "sniper_modular" ],
     "ammo_modifier": "308",
     "min_skills": [ [ "weapon", 2 ], [ "mechanics", 2 ] ],
-    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
+    "flags": [ "INSTALL_DIFFICULT" ],
     "magazine_adaptor": [
       [ "308", [ "mag_modular_308_small" ] ],
       [ "308", [ "mag_modular_308_standard" ] ],
@@ -201,7 +200,7 @@
     "mod_targets": [ "boltaction_modular", "assault_rifle_modular", "battle_rifle_modular", "machinegun_modular", "sniper_modular" ],
     "ammo_modifier": "762R",
     "min_skills": [ [ "weapon", 2 ], [ "mechanics", 2 ] ],
-    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
+    "flags": [ "INSTALL_DIFFICULT" ],
     "magazine_adaptor": [
       [ "762R", [ "mag_modular_762R_small" ] ],
       [ "762R", [ "mag_modular_762R_standard" ] ],
@@ -226,7 +225,7 @@
     "mod_targets": [ "pumpaction_modular", "shotgun_modular" ],
     "ammo_modifier": "shot",
     "min_skills": [ [ "weapon", 1 ], [ "mechanics", 1 ] ],
-    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
+    "flags": [ "INSTALL_DIFFICULT" ],
     "magazine_adaptor": [
       [ "shot", [ "mag_modular_shot_small" ] ],
       [ "shot", [ "mag_modular_shot_standard" ] ],
@@ -251,7 +250,7 @@
     "mod_targets": [ "boltaction_modular", "battle_rifle_modular", "machinegun_modular", "sniper_modular" ],
     "ammo_modifier": "50",
     "min_skills": [ [ "weapon", 3 ], [ "mechanics", 3 ] ],
-    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
+    "flags": [ "INSTALL_DIFFICULT" ],
     "magazine_adaptor": [ [ "50", [ "mag_modular_50_small" ] ], [ "50", [ "mag_modular_50_standard" ] ], [ "50", [ "mag_modular_50_big" ] ] ]
   },
   {
@@ -271,7 +270,7 @@
     "mod_targets": [ "grenade_launcher_modular" ],
     "ammo_modifier": "40x46mm",
     "min_skills": [ [ "weapon", 2 ], [ "mechanics", 2 ] ],
-    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
+    "flags": [ "INSTALL_DIFFICULT" ],
     "magazine_adaptor": [
       [ "40x46mm", [ "mag_modular_40x46mm_small" ] ],
       [ "40x46mm", [ "mag_modular_40x46mm_standard" ] ],
@@ -296,7 +295,7 @@
     "mod_targets": [ "boltaction_modular", "assault_rifle_modular", "battle_rifle_modular", "machinegun_modular", "sniper_modular" ],
     "ammo_modifier": "223",
     "min_skills": [ [ "weapon", 3 ], [ "mechanics", 3 ] ],
-    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
+    "flags": [ "INSTALL_DIFFICULT" ],
     "magazine_adaptor": [
       [ "223", [ "mag_modular_223_small" ] ],
       [ "223", [ "mag_modular_223_standard" ] ],
@@ -322,7 +321,7 @@
     "mod_targets": [ "battle_rifle_modular", "machinegun_modular" ],
     "ammo_modifier": "308",
     "min_skills": [ [ "weapon", 3 ], [ "mechanics", 3 ] ],
-    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
+    "flags": [ "INSTALL_DIFFICULT" ],
     "magazine_adaptor": [
       [ "308", [ "mag_modular_308_small" ] ],
       [ "308", [ "mag_modular_308_standard" ] ],
@@ -348,7 +347,7 @@
     "mod_targets": [ "battle_rifle_modular", "machinegun_modular" ],
     "ammo_modifier": "50",
     "min_skills": [ [ "weapon", 3 ], [ "mechanics", 3 ] ],
-    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
+    "flags": [ "INSTALL_DIFFICULT" ],
     "magazine_adaptor": [
       [ "50", [ "mag_modular_50_small" ] ],
       [ "50", [ "mag_modular_50_standard" ] ],
@@ -374,7 +373,7 @@
     "mod_targets": [ "boltaction_modular", "assault_rifle_modular", "battle_rifle_modular", "machinegun_modular", "sniper_modular" ],
     "ammo_modifier": "3006",
     "min_skills": [ [ "weapon", 2 ], [ "mechanics", 2 ] ],
-    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
+    "flags": [ "INSTALL_DIFFICULT" ],
     "magazine_adaptor": [
       [ "3006", [ "mag_modular_3006_small" ] ],
       [ "3006", [ "mag_modular_3006_standard" ] ],
@@ -399,7 +398,7 @@
     "mod_targets": [ "boltaction_modular", "assault_rifle_modular", "battle_rifle_modular", "machinegun_modular", "sniper_modular" ],
     "ammo_modifier": "300",
     "min_skills": [ [ "weapon", 2 ], [ "mechanics", 2 ] ],
-    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
+    "flags": [ "INSTALL_DIFFICULT" ],
     "magazine_adaptor": [
       [ "300", [ "mag_modular_300_small" ] ],
       [ "300", [ "mag_modular_300_standard" ] ],
@@ -424,7 +423,7 @@
     "mod_targets": [ "boltaction_modular", "assault_rifle_modular", "battle_rifle_modular", "machinegun_modular", "sniper_modular" ],
     "ammo_modifier": "277",
     "min_skills": [ [ "weapon", 2 ], [ "mechanics", 2 ] ],
-    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
+    "flags": [ "INSTALL_DIFFICULT" ],
     "magazine_adaptor": [
       [ "277", [ "mag_modular_277_small" ] ],
       [ "277", [ "mag_modular_277_standard" ] ],
@@ -449,7 +448,7 @@
     "mod_targets": [ "pumpaction_modular", "shotgun_modular" ],
     "ammo_modifier": "410shot",
     "min_skills": [ [ "weapon", 2 ], [ "mechanics", 2 ] ],
-    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
+    "flags": [ "INSTALL_DIFFICULT" ],
     "magazine_adaptor": [
       [ "410shot", [ "mag_modular_410shot_small" ] ],
       [ "410shot", [ "mag_modular_410shot_standard" ] ],
@@ -474,7 +473,7 @@
     "mod_targets": [ "boltaction_modular", "smg_modular", "assault_rifle_modular", "pistol_modular" ],
     "ammo_modifier": "32",
     "min_skills": [ [ "weapon", 2 ], [ "mechanics", 2 ] ],
-    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
+    "flags": [ "INSTALL_DIFFICULT" ],
     "magazine_adaptor": [ [ "32", [ "mag_modular_32_small" ] ], [ "32", [ "mag_modular_32_standard" ] ], [ "32", [ "mag_modular_32_big" ] ] ],
     "range_modifier": -10
   },
@@ -495,7 +494,7 @@
     "mod_targets": [ "boltaction_modular", "smg_modular", "assault_rifle_modular", "pistol_modular" ],
     "ammo_modifier": "357sig",
     "min_skills": [ [ "weapon", 2 ], [ "mechanics", 2 ] ],
-    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
+    "flags": [ "INSTALL_DIFFICULT" ],
     "magazine_adaptor": [
       [ "357sig", [ "mag_modular_357sig_small" ] ],
       [ "357sig", [ "mag_modular_357sig_standard" ] ],
@@ -520,7 +519,7 @@
     "mod_targets": [ "boltaction_modular", "smg_modular", "assault_rifle_modular", "pistol_modular" ],
     "ammo_modifier": "380",
     "min_skills": [ [ "weapon", 2 ], [ "mechanics", 2 ] ],
-    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
+    "flags": [ "INSTALL_DIFFICULT" ],
     "magazine_adaptor": [
       [ "380", [ "mag_modular_380_small" ] ],
       [ "380", [ "mag_modular_380_standard" ] ],
@@ -545,7 +544,7 @@
     "mod_targets": [ "boltaction_modular", "smg_modular", "assault_rifle_modular", "pistol_modular" ],
     "ammo_modifier": "40",
     "min_skills": [ [ "weapon", 2 ], [ "mechanics", 2 ] ],
-    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
+    "flags": [ "INSTALL_DIFFICULT" ],
     "magazine_adaptor": [ [ "40", [ "mag_modular_40_small" ] ], [ "40", [ "mag_modular_40_standard" ] ], [ "40", [ "mag_modular_40_big" ] ] ],
     "range_modifier": -10
   },
@@ -566,7 +565,7 @@
     "mod_targets": [ "grenade_launcher_modular" ],
     "ammo_modifier": "40x46mm",
     "min_skills": [ [ "weapon", 3 ], [ "mechanics", 3 ] ],
-    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
+    "flags": [ "INSTALL_DIFFICULT" ],
     "magazine_adaptor": [
       [ "40x46mm", [ "mag_modular_40x46mm_small" ] ],
       [ "40x46mm", [ "mag_modular_40x46mm_standard" ] ],
@@ -594,7 +593,7 @@
     "mod_targets": [ "battle_rifle_modular", "machinegun_modular" ],
     "ammo_modifier": "277",
     "min_skills": [ [ "weapon", 3 ], [ "mechanics", 3 ] ],
-    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
+    "flags": [ "INSTALL_DIFFICULT" ],
     "magazine_adaptor": [
       [ "277", [ "mag_modular_277_small" ] ],
       [ "277", [ "mag_modular_277_standard" ] ],
@@ -620,7 +619,7 @@
     "mod_targets": [ "grenade_launcher_modular" ],
     "ammo_modifier": "40x46mm",
     "min_skills": [ [ "weapon", 3 ], [ "mechanics", 3 ] ],
-    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
+    "flags": [ "INSTALL_DIFFICULT" ],
     "magazine_adaptor": [
       [ "40x46mm", [ "mag_modular_40x46mm_small" ] ],
       [ "40x46mm", [ "mag_modular_40x46mm_standard" ] ],
@@ -649,7 +648,7 @@
     "mod_targets": [ "boltaction_modular", "assault_rifle_modular", "battle_rifle_modular", "machinegun_modular", "sniper_modular" ],
     "ammo_modifier": "5x50",
     "min_skills": [ [ "weapon", 4 ], [ "mechanics", 4 ] ],
-    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
+    "flags": [ "INSTALL_DIFFICULT" ],
     "magazine_adaptor": [
       [ "5x50", [ "mag_modular_5x50_small" ] ],
       [ "5x50", [ "mag_modular_5x50_standard" ] ],
@@ -674,7 +673,7 @@
     "mod_targets": [ "pumpaction_modular", "shotgun_modular" ],
     "ammo_modifier": "20x66mm",
     "min_skills": [ [ "weapon", 4 ], [ "mechanics", 4 ] ],
-    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
+    "flags": [ "INSTALL_DIFFICULT" ],
     "magazine_adaptor": [
       [ "20x66mm", [ "mag_modular_20x66mm_small" ] ],
       [ "20x66mm", [ "mag_modular_20x66mm_standard" ] ],
@@ -699,7 +698,7 @@
     "mod_targets": [ "pumpaction_modular", "shotgun_modular" ],
     "ammo_modifier": "8x40mm",
     "min_skills": [ [ "weapon", 4 ], [ "mechanics", 4 ] ],
-    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
+    "flags": [ "INSTALL_DIFFICULT" ],
     "magazine_adaptor": [
       [ "8x40mm", [ "mag_modular_8x40mm_small" ] ],
       [ "8x40mm", [ "mag_modular_8x40mm_standard" ] ],
@@ -724,7 +723,7 @@
     "mod_targets": [ "laser_pistol_modular", "laser_rifle_modular" ],
     "ammo_modifier": "battery",
     "min_skills": [ [ "weapon", 4 ], [ "electronics", 4 ] ],
-    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
+    "flags": [ "INSTALL_DIFFICULT" ],
     "magazine_adaptor": [
       [ "battery", [ "light_battery_cell" ] ],
       [ "battery", [ "light_plus_battery_cell" ] ],
@@ -741,7 +740,7 @@
     "ammo_to_fire_modifier": 19,
     "ups_charges_multiplier": 0
   },
-    {
+  {
     "id": "retool_energy_ups_modular",
     "type": "GUNMOD",
     "name": { "str": "custom UPS power module" },
@@ -757,11 +756,11 @@
     "location": "power",
     "mod_targets": [ "laser_pistol_modular", "laser_rifle_modular" ],
     "min_skills": [ [ "weapon", 4 ], [ "electronics", 4 ] ],
-    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
-	"ups_charges_modifier":19,
-    "ammo_to_fire_multiplier": 0,
+    "flags": [ "INSTALL_DIFFICULT" ],
+    "ups_charges_modifier": 19,
+    "ammo_to_fire_multiplier": 0
   },
-    {
+  {
     "id": "retool_energy_big_modular",
     "type": "GUNMOD",
     "name": { "str": "custom large battery power module" },
@@ -778,7 +777,7 @@
     "mod_targets": [ "laser_rifle_modular" ],
     "ammo_modifier": "battery",
     "min_skills": [ [ "weapon", 4 ], [ "electronics", 4 ] ],
-    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ],
+    "flags": [ "INSTALL_DIFFICULT" ],
     "magazine_adaptor": [
       [ "battery", [ "light_battery_cell" ] ],
       [ "battery", [ "light_plus_battery_cell" ] ],
@@ -799,7 +798,6 @@
     ],
     "ammo_to_fire_modifier": 19,
     "ups_charges_multiplier": 0
-  },
-
+  }
 ]
 
