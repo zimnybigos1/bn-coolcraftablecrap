@@ -35,7 +35,10 @@
       "retool_40x53mm_belt_modular",
       "retool_5x50_modular",
       "retool_20x66mm_modular",
-      "retool_8x40mm_modular"
+      "retool_8x40mm_modular",
+      "retool_energy_small_modular",
+      "retool_energy_big_modular",
+      "retool_energy_ups_modular"
     ]
   },
   {
@@ -411,6 +414,48 @@
     "time": "3 h",
     "book_learn": [ [ "recipe_caseless", 7 ] ],
     "using": [ [ "gunmod_advanced", 2 ] ]
+  },
+    {
+    "type": "recipe",
+    "result": "retool_energy_small_modular",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_GUNMOD",
+    "skill_used": "electronics",
+    "skills_required": [ [ "gun", 3 ] ],
+    "difficulty": 7,
+    "time": "3 h",
+    "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
+    "using": [ [ "gunmod_laser", 1 ] ],
+    "components": [[["battery_ups_toggle",1]]]
+  },
+      {
+    "type": "recipe",
+    "result": "retool_energy_big_modular",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_GUNMOD",
+    "skill_used": "electronics",
+    "skills_required": [ [ "gun", 3 ] ],
+    "difficulty": 7,
+    "time": "3 h",
+    "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
+    "using": [ [ "gunmod_laser", 2 ] ],
+    "components": [[["battery_ups_toggle",1]]]
+  },
+        {
+    "type": "recipe",
+    "result": "retool_energy_ups_modular",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_GUNMOD",
+    "skill_used": "electronics",
+    "skills_required": [ [ "gun", 3 ] ],
+    "difficulty": 7,
+    "time": "3 h",
+    "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
+    "using": [ [ "gunmod_laser", 1 ] ],
+    "components": [[["battery_ups",1]]]
   },
   {
     "type": "nested_category",
@@ -1529,6 +1574,54 @@
     "autolearn": true,
     "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunmod_basic", 3 ] ]
+  },
+    {
+    "type": "nested_category",
+    "id": "amplifiers_modular",
+    "nested_name": "custom amplifiers",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_NESTED",
+    "description": "Amplifiers for custom laser guns",
+    "nested_category_data": [ "amplifier_x2_modular","amplifier_x4_modular","amplifier_x8_modular" ]
+  },
+        {
+    "type": "recipe",
+    "result": "amplifier_x2_modular",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_GUNMOD",
+    "skill_used": "electronics",
+    "skills_required": [ [ "gun", 3 ] ],
+    "difficulty": 7,
+    "time": "3 h",
+    "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
+    "using": [ [ "gunmod_laser", 1 ] ]
+  },
+          {
+    "type": "recipe",
+    "result": "amplifier_x4_modular",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_GUNMOD",
+    "skill_used": "electronics",
+    "skills_required": [ [ "gun", 3 ] ],
+    "difficulty": 7,
+    "time": "3 h",
+    "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
+    "using": [ [ "gunmod_laser", 2 ] ]
+  },
+          {
+    "type": "recipe",
+    "result": "amplifier_x8_modular",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_GUNMOD",
+    "skill_used": "electronics",
+    "skills_required": [ [ "gun", 3 ] ],
+    "difficulty": 7,
+    "time": "3 h",
+    "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
+    "using": [ [ "gunmod_laser", 3 ] ]
   }
 ]
 

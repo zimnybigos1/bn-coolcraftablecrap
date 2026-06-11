@@ -18,7 +18,9 @@
       "shotgun_modular",
       "pistol_modular",
       "battle_rifle_modular",
-      "machinegun_modular"
+      "machinegun_modular",
+      "laser_pistol_modular",
+      "laser_rifle_modular"
     ],
     "min_skills": [ [ "weapon", 1 ], [ "mechanics", 1 ] ],
     "flags": [ "INSTALL_DIFFICULT" ],
@@ -43,7 +45,9 @@
       "shotgun_modular",
       "pistol_modular",
       "battle_rifle_modular",
-      "machinegun_modular"
+      "machinegun_modular",
+      "laser_pistol_modular",
+      "laser_rifle_modular"
     ],
     "min_skills": [ [ "weapon", 2 ], [ "mechanics", 2 ] ],
     "flags": [ "INSTALL_DIFFICULT" ],
@@ -68,7 +72,9 @@
       "shotgun_modular",
       "pistol_modular",
       "battle_rifle_modular",
-      "machinegun_modular"
+      "machinegun_modular",
+      "laser_pistol_modular",
+      "laser_rifle_modular"
     ],
     "min_skills": [ [ "weapon", 3 ], [ "mechanics", 3 ] ],
     "flags": [ "INSTALL_DIFFICULT" ],
@@ -93,7 +99,9 @@
       "shotgun_modular",
       "pistol_modular",
       "battle_rifle_modular",
-      "machinegun_modular"
+      "machinegun_modular",
+      "laser_pistol_modular",
+      "laser_rifle_modular"
     ],
     "min_skills": [ [ "weapon", 3 ], [ "mechanics", 3 ] ],
     "flags": [ "INSTALL_DIFFICULT" ],

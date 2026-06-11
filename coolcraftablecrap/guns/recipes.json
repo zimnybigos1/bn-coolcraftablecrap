@@ -16,7 +16,9 @@
       "grenade_launcher_modular",
       "battle_rifle_modular",
       "machinegun_modular",
-      "sniper_modular"
+      "sniper_modular",
+      "laser_pistol_modular",
+      "laser_rifle_modular"
     ]
   },
   {
@@ -28,7 +30,7 @@
     "skills_required": [ "gun", 3 ],
     "difficulty": 5,
     "time": "4 h",
-       "autolearn": true,
+    "autolearn": true,
     "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunsmithing_basic", 2 ] ]
   },
@@ -41,7 +43,7 @@
     "skills_required": [ "gun", 3 ],
     "difficulty": 5,
     "time": "4 h",
-       "autolearn": true,
+    "autolearn": true,
     "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunsmithing_basic", 2 ] ]
   },
@@ -54,7 +56,7 @@
     "skills_required": [ "gun", 3 ],
     "difficulty": 5,
     "time": "4 h",
-       "autolearn": true,
+    "autolearn": true,
     "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunsmithing_basic", 1 ] ]
   },
@@ -67,7 +69,7 @@
     "skills_required": [ "gun", 3 ],
     "difficulty": 6,
     "time": "6 h",
-       "autolearn": true,
+    "autolearn": true,
     "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunsmithing_standard", 2 ] ]
   },
@@ -80,7 +82,7 @@
     "skills_required": [ "gun", 3 ],
     "difficulty": 6,
     "time": "6 h",
-       "autolearn": true,
+    "autolearn": true,
     "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunsmithing_standard", 2 ] ]
   },
@@ -93,7 +95,7 @@
     "skills_required": [ "gun", 3 ],
     "difficulty": 6,
     "time": "6 h",
-       "autolearn": true,
+    "autolearn": true,
     "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunsmithing_standard", 1 ] ]
   },
@@ -106,7 +108,7 @@
     "skills_required": [ "gun", 3 ],
     "difficulty": 6,
     "time": "6 h",
-       "autolearn": true,
+    "autolearn": true,
     "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunsmithing_standard", 3 ] ]
   },
@@ -119,7 +121,7 @@
     "skills_required": [ "gun", 3 ],
     "difficulty": 7,
     "time": "10 h",
-       "autolearn": true,
+    "autolearn": true,
     "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunsmithing_advanced", 3 ] ]
   },
@@ -132,7 +134,7 @@
     "skills_required": [ "gun", 3 ],
     "difficulty": 7,
     "time": "10 h",
-       "autolearn": true,
+    "autolearn": true,
     "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunsmithing_advanced", 4 ] ]
   },
@@ -145,9 +147,36 @@
     "skills_required": [ "gun", 3 ],
     "difficulty": 7,
     "time": "10 h",
-       "autolearn": true,
+    "autolearn": true,
     "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunsmithing_advanced", 3 ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "laser_pistol_modular",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "electronics",
+    "skills_required": [ "gun", 3 ],
+    "difficulty": 7,
+    "time": "10 h",
+    "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
+    "using": [ [ "gunsmithing_laser", 1 ] ],
+    "components": [ [ ["laser_source", 1 ]] ]
+  },
+  {
+    "type": "recipe",
+    "result": "laser_rifle_modular",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "electronics",
+    "skills_required": [ "gun", 3 ],
+    "difficulty": 7,
+    "time": "10 h",
+    "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
+    "using": [ [ "gunsmithing_laser", 2 ] ],
+    "components": [ [[ "laser_source", 1 ] ]]
   }
 ]
-
