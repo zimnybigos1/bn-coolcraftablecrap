@@ -90,7 +90,21 @@
     "durability": 7,
     "dispersion": 300,
     "sight_dispersion": 50,
-    "reload": 100
+    "reload": 100,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "magazine", 1 ],
+      [ "rail", 2 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ]
   },
   {
     "type": "GUN",
@@ -110,7 +124,21 @@
     "durability": 7,
     "dispersion": 300,
     "sight_dispersion": 50,
-    "reload": 100
+    "reload": 100,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "magazine", 1 ],
+      [ "rail", 2 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ]
   },
   {
     "type": "GUN",
@@ -130,7 +158,18 @@
     "durability": 7,
     "dispersion": 300,
     "sight_dispersion": 50,
-    "reload": 100
+    "reload": 100,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "brass catcher", 1 ],
+      [ "mechanism", 4 ],
+      [ "magazine", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ]
   },
   {
     "type": "GUN",
@@ -171,7 +210,21 @@
     "durability": 8,
     "dispersion": 200,
     "sight_dispersion": 50,
-    "reload": 100
+    "reload": 100,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "magazine", 1 ],
+      [ "rail", 2 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ]
   },
   {
     "type": "GUN",
@@ -191,7 +244,21 @@
     "durability": 8,
     "dispersion": 200,
     "sight_dispersion": 50,
-    "reload": 100
+    "reload": 100,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "magazine", 1 ],
+      [ "rail", 2 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ]
   },
   {
     "type": "GUN",
@@ -211,7 +278,21 @@
     "durability": 8,
     "dispersion": 100,
     "sight_dispersion": 50,
-    "reload": 100
+    "reload": 100,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "magazine", 1 ],
+      [ "rail", 2 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ]
   },
   {
     "type": "GUN",
@@ -243,15 +324,12 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ],
       [ "power", 1 ],
-      [ "mechanism", 1]
+      [ "mechanism", 1 ]
     ],
-  "ammo_effects": [
-    "LASER",
-    "INCENDIARY"
-  ],
-  "ups_charges": 1,
+    "ammo_effects": [ "LASER", "INCENDIARY" ],
+    "ups_charges": 1
   },
-    {
+  {
     "type": "GUN",
     "id": "laser_rifle_modular",
     "name": { "str_sp": "custom laser rifle" },
@@ -281,13 +359,10 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ],
       [ "power", 1 ],
-      [ "mechanism", 1]
+      [ "mechanism", 1 ]
     ],
-  "ammo_effects": [
-    "LASER",
-    "INCENDIARY"
-  ],
-  "ups_charges": 1,
+    "ammo_effects": [ "LASER", "INCENDIARY" ],
+    "ups_charges": 1
   }
 ]
 

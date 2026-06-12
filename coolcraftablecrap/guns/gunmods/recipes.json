@@ -415,7 +415,7 @@
     "book_learn": [ [ "recipe_caseless", 7 ] ],
     "using": [ [ "gunmod_advanced", 2 ] ]
   },
-    {
+  {
     "type": "recipe",
     "result": "retool_energy_small_modular",
     "category": "CC_WEAPON",
@@ -427,9 +427,9 @@
     "autolearn": true,
     "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunmod_laser", 1 ] ],
-    "components": [[["battery_ups_toggle",1]]]
+    "components": [ [ [ "battery_ups_toggle", 1 ] ] ]
   },
-      {
+  {
     "type": "recipe",
     "result": "retool_energy_big_modular",
     "category": "CC_WEAPON",
@@ -441,9 +441,9 @@
     "autolearn": true,
     "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunmod_laser", 2 ] ],
-    "components": [[["battery_ups_toggle",1]]]
+    "components": [ [ [ "battery_ups_toggle", 1 ] ] ]
   },
-        {
+  {
     "type": "recipe",
     "result": "retool_energy_ups_modular",
     "category": "CC_WEAPON",
@@ -455,7 +455,7 @@
     "autolearn": true,
     "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunmod_laser", 1 ] ],
-    "components": [[["battery_ups",1]]]
+    "components": [ [ [ "battery_ups", 1 ] ] ]
   },
   {
     "type": "nested_category",
@@ -1534,7 +1534,14 @@
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_NESTED",
     "description": "Barrels for custom firearms",
-    "nested_category_data": [ "barrel_short_modular", "barrel_standard_modular", "barrel_long_modular" ]
+    "nested_category_data": [
+      "barrel_short_modular",
+      "barrel_standard_modular",
+      "barrel_long_modular",
+      "barrel_short_threaded_modular",
+      "barrel_standard_threaded_modular",
+      "barrel_long_threaded_modular"
+    ]
   },
   {
     "type": "recipe",
@@ -1575,16 +1582,55 @@
     "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunmod_basic", 3 ] ]
   },
-    {
+  {
+    "type": "recipe",
+    "result": "barrel_short_threaded_modular",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_GUNMOD",
+    "skill_used": "mechanics",
+    "skills_required": [ [ "gun", 3 ] ],
+    "difficulty": 6,
+    "time": "3 h",
+    "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
+    "using": [ [ "gunmod_standard", 1 ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "barrel_standard_threaded_modular",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_GUNMOD",
+    "skill_used": "mechanics",
+    "skills_required": [ [ "gun", 3 ] ],
+    "difficulty": 6,
+    "time": "3 h",
+    "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
+    "using": [ [ "gunmod_standard", 2 ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "barrel_long_threaded_modular",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_GUNMOD",
+    "skill_used": "mechanics",
+    "skills_required": [ [ "gun", 3 ] ],
+    "difficulty": 6,
+    "time": "3 h",
+    "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
+    "using": [ [ "gunmod_standard", 3 ] ]
+  },
+  {
     "type": "nested_category",
     "id": "amplifiers_modular",
     "nested_name": "custom amplifiers",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_NESTED",
     "description": "Amplifiers for custom laser guns",
-    "nested_category_data": [ "amplifier_x2_modular","amplifier_x4_modular","amplifier_x8_modular" ]
+    "nested_category_data": [ "amplifier_x2_modular", "amplifier_x4_modular", "amplifier_x8_modular" ]
   },
-        {
+  {
     "type": "recipe",
     "result": "amplifier_x2_modular",
     "category": "CC_WEAPON",
@@ -1597,7 +1643,7 @@
     "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunmod_laser", 1 ] ]
   },
-          {
+  {
     "type": "recipe",
     "result": "amplifier_x4_modular",
     "category": "CC_WEAPON",
@@ -1610,7 +1656,7 @@
     "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunmod_laser", 2 ] ]
   },
-          {
+  {
     "type": "recipe",
     "result": "amplifier_x8_modular",
     "category": "CC_WEAPON",
