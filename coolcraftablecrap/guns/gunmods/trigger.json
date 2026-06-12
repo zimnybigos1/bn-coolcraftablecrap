@@ -11,7 +11,7 @@
     "material": "steel",
     "symbol": ":",
     "color": "light_gray",
-    "location": "mechanism",
+    "location": "trigger",
     "mod_targets": [
       "smg_modular",
       "assault_rifle_modular",
@@ -38,7 +38,7 @@
     "material": "steel",
     "symbol": ":",
     "color": "light_gray",
-    "location": "mechanism",
+    "location": "trigger",
     "mod_targets": [
       "smg_modular",
       "assault_rifle_modular",
@@ -65,7 +65,7 @@
     "material": "steel",
     "symbol": ":",
     "color": "light_gray",
-    "location": "mechanism",
+    "location": "trigger",
     "mod_targets": [
       "smg_modular",
       "assault_rifle_modular",
@@ -92,7 +92,7 @@
     "material": "steel",
     "symbol": ":",
     "color": "light_gray",
-    "location": "mechanism",
+    "location": "trigger",
     "mod_targets": [
       "smg_modular",
       "assault_rifle_modular",
