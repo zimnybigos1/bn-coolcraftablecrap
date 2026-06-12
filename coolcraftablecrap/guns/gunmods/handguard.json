@@ -1,0 +1,88 @@
+[
+  {
+    "id": "handguard_modular",
+    "type": "GUNMOD",
+    "name": { "str": "custom handguard" },
+    "description": "A handguard for a custom modular firearm.",
+    "weight": "100 g",
+    "volume": "100 ml",
+    "integral_volume": "100 ml",
+    "integral_weight": "100 g",
+    "price": "10 USD",
+    "material": "steel",
+    "symbol": ":",
+    "color": "light_gray",
+    "location": "handguard",
+    "mod_targets": [
+      "boltaction_modular",
+      "pumpaction_modular",
+      "shotgun_modular",
+      "assault_rifle_modular",
+      "battle_rifle_modular",
+      "machinegun_modular",
+      "sniper_modular",
+      "grenade_launcher_modular"
+    ],
+    "min_skills": [ [ "weapon", 2 ], [ "mechanics", 2 ] ],
+    "flags": [ "INSTALL_DIFFICULT" ],
+    "handling_modifier": 5
+  },
+  {
+    "id": "handguard_rail_modular",
+    "type": "GUNMOD",
+    "name": { "str": "custom handguard with rails" },
+    "description": "A handguard for a custom modular firearm. Has rails for attachments.",
+    "weight": "200 g",
+    "volume": "100 ml",
+    "integral_volume": "100 ml",
+    "integral_weight": "200 g",
+    "price": "10 USD",
+    "material": "steel",
+    "symbol": ":",
+    "color": "light_gray",
+    "location": "handguard",
+    "mod_targets": [
+      "boltaction_modular",
+      "pumpaction_modular",
+      "shotgun_modular",
+      "assault_rifle_modular",
+      "battle_rifle_modular",
+      "machinegun_modular",
+      "sniper_modular",
+      "grenade_launcher_modular"
+    ],
+    "min_skills": [ [ "weapon", 2 ], [ "mechanics", 2 ] ],
+    "flags": [ "INSTALL_DIFFICULT" ],
+    "handling_modifier": 5,
+    "add_mod": [ [ "rail", 1 ], [ "underbarrel", 1 ], [ "accessories", 1 ], [ "grip", 1 ] ]
+  },
+  {
+    "id": "handguard_rail_big_modular",
+    "type": "GUNMOD",
+    "name": { "str": "custom tacticool handguard" },
+    "description": "A handguard for a custom modular firearm. Has lots of rails for attachments.",
+    "weight": "300 g",
+    "volume": "100 ml",
+    "integral_volume": "100 ml",
+    "integral_weight": "300 g",
+    "price": "10 USD",
+    "material": "steel",
+    "symbol": ":",
+    "color": "light_gray",
+    "location": "handguard",
+    "mod_targets": [
+      "boltaction_modular",
+      "pumpaction_modular",
+      "shotgun_modular",
+      "assault_rifle_modular",
+      "battle_rifle_modular",
+      "machinegun_modular",
+      "sniper_modular",
+      "grenade_launcher_modular"
+    ],
+    "min_skills": [ [ "weapon", 2 ], [ "mechanics", 2 ] ],
+    "flags": [ "INSTALL_DIFFICULT" ],
+    "add_mod": [ [ "rail", 4 ], [ "underbarrel", 2 ], [ "accessories", 4 ], [ "grip", 1 ] ]
+  }
+]
+

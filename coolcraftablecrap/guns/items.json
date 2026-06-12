@@ -11,13 +11,15 @@
     "volume": "2000 ml",
     "price_postapoc": "10 USD",
     "material": [ "steel", "wood" ],
-        "valid_mod_locations": [
+    "valid_mod_locations": [
+      [ "handguard", 1 ],
+      [ "trigger", 1 ],
       [ "receiver", 1 ],
+      [ "barrel", 1 ],
       [ "brass catcher", 1 ],
       [ "sights", 1 ],
       [ "sling", 1 ],
-      [ "stock", 1 ],
-      [ "barrel", 1 ]
+      [ "stock", 1 ]
     ],
     "ranged_damage": { "damage_type": "bullet", "amount": -3 },
     "ammo": "223",
@@ -39,13 +41,15 @@
     "volume": "2000 ml",
     "price_postapoc": "10 USD",
     "material": [ "steel", "wood" ],
-        "valid_mod_locations": [
+    "valid_mod_locations": [
+      [ "handguard", 1 ],
+      [ "trigger", 1 ],
       [ "receiver", 1 ],
+      [ "barrel", 1 ],
       [ "brass catcher", 1 ],
       [ "sights", 1 ],
       [ "sling", 1 ],
-      [ "stock", 1 ],
-      [ "barrel", 1 ]
+      [ "stock", 1 ]
     ],
     "ranged_damage": { "damage_type": "bullet", "amount": -3 },
     "ammo": "223",
@@ -68,13 +72,15 @@
     "volume": "1500 ml",
     "price_postapoc": "10 USD",
     "material": [ "steel", "wood" ],
-        "valid_mod_locations": [["trigger", 1], 
+    "valid_mod_locations": [
+      [ "handguard", 1 ],
+      [ "trigger", 1 ],
       [ "receiver", 1 ],
+      [ "barrel", 1 ],
       [ "brass catcher", 1 ],
       [ "sights", 1 ],
       [ "sling", 1 ],
-      [ "stock", 1 ],
-      [ "barrel", 1 ]
+      [ "stock", 1 ]
     ],
     "modes": [ [ "DEFAULT", "semi", 1 ] ],
     "ranged_damage": { "damage_type": "bullet", "amount": -3 },
@@ -104,19 +110,15 @@
     "dispersion": 300,
     "sight_dispersion": 50,
     "reload": 100,
-        "valid_mod_locations": [["trigger", 1], 
+    "valid_mod_locations": [
+      [ "handguard", 1 ],
+      [ "trigger", 1 ],
       [ "receiver", 1 ],
-      [ "accessories", 4 ],
       [ "barrel", 1 ],
       [ "brass catcher", 1 ],
-      [ "grip", 1 ],
-
-      [ "magazine", 1 ],
-      [ "rail", 2 ],
       [ "sights", 1 ],
       [ "sling", 1 ],
-      [ "stock", 1 ],
-      [ "underbarrel", 1 ]
+      [ "stock", 1 ]
     ]
   },
   {
@@ -138,19 +140,15 @@
     "dispersion": 300,
     "sight_dispersion": 50,
     "reload": 100,
-        "valid_mod_locations": [["trigger", 1], 
+    "valid_mod_locations": [
+      [ "handguard", 1 ],
+      [ "trigger", 1 ],
       [ "receiver", 1 ],
-      [ "accessories", 4 ],
       [ "barrel", 1 ],
       [ "brass catcher", 1 ],
-      [ "grip", 1 ],
-
-      [ "magazine", 1 ],
-      [ "rail", 2 ],
       [ "sights", 1 ],
       [ "sling", 1 ],
-      [ "stock", 1 ],
-      [ "underbarrel", 1 ]
+      [ "stock", 1 ]
     ]
   },
   {
@@ -172,16 +170,15 @@
     "dispersion": 300,
     "sight_dispersion": 50,
     "reload": 100,
-        "valid_mod_locations": [["trigger", 1], 
+    "valid_mod_locations": [
+      [ "handguard", 1 ],
+      [ "trigger", 1 ],
       [ "receiver", 1 ],
-      [ "accessories", 4 ],
       [ "barrel", 1 ],
       [ "brass catcher", 1 ],
-
-      [ "magazine", 1 ],
       [ "sights", 1 ],
-      [ "stock", 1 ],
-      [ "underbarrel", 1 ]
+      [ "sling", 1 ],
+      [ "stock", 1 ]
     ]
   },
   {
@@ -196,7 +193,7 @@
     "volume": "2000 ml",
     "price_postapoc": "10 USD",
     "material": [ "steel" ],
-        "valid_mod_locations": [["trigger", 1], ["trigger", 1], [ "receiver", 1 ], [ "accessories", 2 ], [ "barrel", 1 ], [ "sights", 1 ], [ "sling", 1 ], [ "bore", 1 ] ],
+    "valid_mod_locations": [ [ "handguard", 1 ], [ "trigger", 1 ], [ "receiver", 1 ], [ "barrel", 1 ], [ "sights", 1 ], [ "sling", 1 ] ],
     "ranged_damage": { "damage_type": "bullet", "amount": -1 },
     "ammo": "40x46mm",
     "clip_size": 0,
@@ -224,19 +221,15 @@
     "dispersion": 200,
     "sight_dispersion": 50,
     "reload": 100,
-        "valid_mod_locations": [["trigger", 1], 
+    "valid_mod_locations": [
+      [ "handguard", 1 ],
+      [ "trigger", 1 ],
       [ "receiver", 1 ],
-      [ "accessories", 4 ],
       [ "barrel", 1 ],
       [ "brass catcher", 1 ],
-      [ "grip", 1 ],
-
-      [ "magazine", 1 ],
-      [ "rail", 2 ],
       [ "sights", 1 ],
       [ "sling", 1 ],
-      [ "stock", 1 ],
-      [ "underbarrel", 1 ]
+      [ "stock", 1 ]
     ]
   },
   {
@@ -258,19 +251,15 @@
     "dispersion": 200,
     "sight_dispersion": 50,
     "reload": 100,
-        "valid_mod_locations": [["trigger", 1], 
+    "valid_mod_locations": [
+      [ "handguard", 1 ],
+      [ "trigger", 1 ],
       [ "receiver", 1 ],
-      [ "accessories", 4 ],
       [ "barrel", 1 ],
       [ "brass catcher", 1 ],
-      [ "grip", 1 ],
-
-      [ "magazine", 1 ],
-      [ "rail", 2 ],
       [ "sights", 1 ],
       [ "sling", 1 ],
-      [ "stock", 1 ],
-      [ "underbarrel", 1 ]
+      [ "stock", 1 ]
     ]
   },
   {
@@ -292,19 +281,15 @@
     "dispersion": 100,
     "sight_dispersion": 50,
     "reload": 100,
-        "valid_mod_locations": [["trigger", 1], 
+    "valid_mod_locations": [
+      [ "handguard", 1 ],
+      [ "trigger", 1 ],
       [ "receiver", 1 ],
-      [ "accessories", 4 ],
       [ "barrel", 1 ],
       [ "brass catcher", 1 ],
-      [ "grip", 1 ],
-
-      [ "magazine", 1 ],
-      [ "rail", 2 ],
       [ "sights", 1 ],
       [ "sling", 1 ],
-      [ "stock", 1 ],
-      [ "underbarrel", 1 ]
+      [ "stock", 1 ]
     ]
   },
   {
@@ -326,18 +311,15 @@
     "sight_dispersion": 50,
     "reload": 100,
     "range": 15,
-        "valid_mod_locations": [["trigger", 1], 
-      [ "accessories", 2 ],
+    "valid_mod_locations": [
+      [ "handguard", 1 ],
+      [ "trigger", 1 ],
       [ "emitter", 1 ],
-      [ "grip", 1 ],
       [ "lens", 1 ],
-      [ "rail", 1 ],
       [ "sights", 1 ],
       [ "sling", 1 ],
       [ "stock", 1 ],
-      [ "underbarrel", 1 ],
-      [ "power", 1 ],
-      [ "mechanism", 1 ]
+      [ "power", 1 ]
     ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
     "ups_charges": 1
@@ -361,18 +343,15 @@
     "sight_dispersion": 50,
     "reload": 100,
     "range": 30,
-        "valid_mod_locations": [["trigger", 1], 
-      [ "accessories", 2 ],
+    "valid_mod_locations": [
+      [ "handguard", 1 ],
+      [ "trigger", 1 ],
       [ "emitter", 1 ],
-      [ "grip", 1 ],
       [ "lens", 1 ],
-      [ "rail", 1 ],
       [ "sights", 1 ],
       [ "sling", 1 ],
       [ "stock", 1 ],
-      [ "underbarrel", 1 ],
-      [ "power", 1 ],
-      [ "mechanism", 1 ]
+      [ "power", 1 ]
     ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
     "ups_charges": 1

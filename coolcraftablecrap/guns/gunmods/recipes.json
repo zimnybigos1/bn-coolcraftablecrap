@@ -1668,6 +1668,54 @@
     "autolearn": true,
     "book_learn": [ [ "manual_ccc", 5 ] ],
     "using": [ [ "gunmod_laser", 3 ] ]
+  },
+  {
+    "type": "nested_category",
+    "id": "handguards_modular",
+    "nested_name": "custom handguards",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_NESTED",
+    "description": "Handguards for custom firearms",
+    "nested_category_data": [ "handguard_modular", "handguard_rail_modular", "handguard_rail_big_modular" ]
+  },
+  {
+    "type": "recipe",
+    "result": "handguard_modular",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_GUNMOD",
+    "skill_used": "mechanics",
+    "skills_required": [ [ "gun", 1 ] ],
+    "difficulty": 5,
+    "time": "2 h",
+    "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
+    "using": [ [ "gunmod_basic", 2 ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "handguard_rail_modular",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_GUNMOD",
+    "skill_used": "mechanics",
+    "skills_required": [ [ "gun", 1 ] ],
+    "difficulty": 6,
+    "time": "3 h",
+    "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
+    "using": [ [ "gunmod_standard", 2 ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "handguard_rail_big_modular",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_GUNMOD",
+    "skill_used": "mechanics",
+    "skills_required": [ [ "gun", 1 ] ],
+    "difficulty": 6,
+    "time": "3 h",
+    "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
+    "using": [ [ "gunmod_standard", 2 ] ]
   }
 ]
 
