@@ -722,7 +722,7 @@
   {
     "id": "mag_modular_32_small",
     "type": "MAGAZINE",
-    "name": { "str": "small handmade .22 magazine" },
+    "name": { "str": "small handmade .32 magazine" },
     "description": "A low-capacity 5 round magazine compatible with custom modular firearms",
     "weight": "100 g",
     "volume": "100 ml",
@@ -884,7 +884,7 @@
   {
     "id": "mag_modular_32_standard",
     "type": "MAGAZINE",
-    "name": { "str": "standard handmade .22 magazine" },
+    "name": { "str": "standard handmade .32 magazine" },
     "description": "A standard-capacity 10 round magazine compatible with custom modular firearms",
     "weight": "200 g",
     "volume": "200 ml",
@@ -1046,7 +1046,7 @@
   {
     "id": "mag_modular_32_big",
     "type": "MAGAZINE",
-    "name": { "str": "large handmade .22 magazine" },
+    "name": { "str": "large handmade .32 magazine" },
     "description": "A high-capacity 20 round magazine compatible with custom modular firearms",
     "weight": "400 g",
     "volume": "400 ml",
