@@ -24,7 +24,7 @@
     ],
     "min_skills": [ [ "weapon", 1 ], [ "mechanics", 1 ] ],
     "flags": [ "INSTALL_DIFFICULT" ],
-    "mode_modifier": [ [ "SEMI", "semi", 1 ] ]
+    "mode_modifier": [ [ "DEFAULT", "semi", 1 ] ]
   },
   {
     "id": "trigger_auto_modular",
@@ -51,7 +51,7 @@
     ],
     "min_skills": [ [ "weapon", 2 ], [ "mechanics", 2 ] ],
     "flags": [ "INSTALL_DIFFICULT" ],
-    "mode_modifier": [ [ "AUTO", "auto", 5 ] ]
+    "mode_modifier": [ [ "DEFAULT", "auto", 5 ] ]
   },
   {
     "id": "trigger_select_modular",
@@ -78,7 +78,7 @@
     ],
     "min_skills": [ [ "weapon", 3 ], [ "mechanics", 3 ] ],
     "flags": [ "INSTALL_DIFFICULT" ],
-    "mode_modifier": [ [ "SEMI", "semi", 1 ], [ "AUTO", "auto", 5 ] ]
+    "mode_modifier": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 5 ] ]
   },
   {
     "id": "trigger_burst_modular",
@@ -105,7 +105,7 @@
     ],
     "min_skills": [ [ "weapon", 3 ], [ "mechanics", 3 ] ],
     "flags": [ "INSTALL_DIFFICULT" ],
-    "mode_modifier": [ [ "SEMI", "semi", 1 ], [ "AUTO", "auto", 5 ], [ "BURST", "burst", 3 ] ]
+    "mode_modifier": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 5 ], [ "BURST", "burst", 3 ] ]
   }
 ]
 
