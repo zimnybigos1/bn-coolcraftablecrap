@@ -239,6 +239,37 @@
       }
     ],
     "power_draw": 500000
+  },
+  {
+    "id": "shotgun_sword",
+    "type": "GENERIC",
+    "category": "weapons",
+    "weapon_category": [ "MEDIEVAL_SWORDS", "1H_SWORDS" ],
+    "copy-from": "arming_sword",
+    "symbol": "/",
+    "color": "light_gray",
+    "name": { "str": "12-gauge gunsword" },
+    "description": "Not very practical either as a gun or a sword, but it looks badass, which is the only thing that matters.",
+    "price_postapoc": "50 USD",
+    "material": "steel",
+    "flags": [ "DURABLE_MELEE", "SHEATH_SWORD", "NONCONDUCTIVE" ],
+    "techniques": [ "WBLOCK_2" ],
+    "weight": "3000 g",
+    "volume": "2500 ml",
+    "bashing": 14,
+    "cutting": 31,
+    "to_hit": 0,
+    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 8 ] ],
+    "gun_data": {
+      "reload_noise_volume": 10,
+      "durability": 6,
+      "skill": "shotgun",
+      "ammo": "shot",
+      "dispersion": 900,
+      "clip_size": 3,
+      "reload": 200,
+      "range": -5
+    }
   }
 ]
 

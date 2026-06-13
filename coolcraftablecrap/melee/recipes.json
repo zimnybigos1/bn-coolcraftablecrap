@@ -139,6 +139,22 @@
     "autolearn": true,
     "book_learn": [ [ "manual_ccc", 5 ] ],
     "components": [ [ [ "long_pole", 1 ] ], [ [ "tazer", 1 ] ], [ [ "duct_tape", 20 ], [ "string_36", 1 ], [ "string_6", 6 ] ] ]
-  }
+  },
+    {
+    "type": "recipe",
+    "result": "shotgun_sword",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_CUTTING",
+    "skill_used": "fabrication",
+    "skills_required": [ "mechanics", 5 ],
+    "difficulty": 7,
+    "time": "8 h",
+    "autolearn": true,
+    "book_learn": [ [ "manual_ccc", 5 ] ],
+"using": [ [ "blacksmithing_advanced", 12 ], [ "steel_standard", 3 ], ["gunsmithing_basic", 2] ],
+ "components": [ [ [ "2x4", 1 ], [ "stick", 2 ] ], [ [ "fabric_hides_any", 1, "LIST" ] ] ]
+ }
+
+  
 ]
 
