@@ -149,8 +149,7 @@
     "skills_required": [ "mechanics", 5 ],
     "difficulty": 7,
     "time": "8 h",
-    "autolearn": true,
-    "book_learn": [ [ "manual_ccc", 5 ] ],
+    "book_learn": [ [ "textbook_weapwest", 7 ], [ "scots_cookbook", 9 ] ],
 "using": [ [ "blacksmithing_advanced", 12 ], [ "steel_standard", 3 ], ["gunsmithing_basic", 2] ],
  "components": [ [ [ "2x4", 1 ], [ "stick", 2 ] ], [ [ "fabric_hides_any", 1, "LIST" ] ] ]
  }

@@ -1554,7 +1554,8 @@
     "time": "2 h",
     "autolearn": true,
     "book_learn": [ [ "manual_ccc", 5 ] ],
-    "using": [ [ "gunmod_basic", 1 ] ]
+    "using": [ [ "gunmod_basic", 1 ] ],
+    "components": [ [ [ "pipe", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -1567,7 +1568,8 @@
     "time": "2 h",
     "autolearn": true,
     "book_learn": [ [ "manual_ccc", 5 ] ],
-    "using": [ [ "gunmod_basic", 2 ] ]
+    "using": [ [ "gunmod_basic", 2 ] ],
+    "components": [ [ [ "pipe", 2 ] ] ]
   },
   {
     "type": "recipe",
@@ -1580,7 +1582,8 @@
     "time": "2 h",
     "autolearn": true,
     "book_learn": [ [ "manual_ccc", 5 ] ],
-    "using": [ [ "gunmod_basic", 3 ] ]
+    "using": [ [ "gunmod_basic", 3 ] ],
+    "components": [ [ [ "pipe", 3 ] ] ]
   },
   {
     "type": "recipe",
@@ -1593,7 +1596,8 @@
     "time": "3 h",
     "autolearn": true,
     "book_learn": [ [ "manual_ccc", 5 ] ],
-    "using": [ [ "gunmod_standard", 1 ] ]
+    "using": [ [ "gunmod_standard", 1 ] ],
+    "components": [ [ [ "pipe", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -1606,7 +1610,8 @@
     "time": "3 h",
     "autolearn": true,
     "book_learn": [ [ "manual_ccc", 5 ] ],
-    "using": [ [ "gunmod_standard", 2 ] ]
+    "using": [ [ "gunmod_standard", 2 ] ],
+    "components": [ [ [ "pipe", 2 ] ] ]
   },
   {
     "type": "recipe",
@@ -1619,7 +1624,8 @@
     "time": "3 h",
     "autolearn": true,
     "book_learn": [ [ "manual_ccc", 5 ] ],
-    "using": [ [ "gunmod_standard", 3 ] ]
+    "using": [ [ "gunmod_standard", 3 ] ],
+    "components": [ [ [ "pipe", 3 ] ] ]
   },
   {
     "type": "nested_category",
