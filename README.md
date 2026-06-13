@@ -4,13 +4,11 @@ A mod for Cataclysm: Bright Nights.
 
 Currently adds:
 
-- 10 superalloy swords
-- Superalloy chain links and chainmail sheets
-- 9 pieces of superalloy chainmail
-- 2 pieces of superalloy trench armor
-- Superheavy composite armor
-- 10 customizable guns with 21 interchangeable parts
-- 36 magazines
+- 13 melee weapons
+- 13 pieces of armor
+- 12 guns with 59 interchangeable parts
+- 105 magazines
+- 1 book
 - usable lathe and drill press
 
 
