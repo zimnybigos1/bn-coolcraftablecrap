@@ -6,7 +6,7 @@ Currently adds:
 
 - 13 melee weapons
 - 13 pieces of armor
-- 12 guns with 59 interchangeable parts
+- 12 customziable guns with 59 interchangeable parts
 - 105 magazines
 - 1 book
 - usable lathe and drill press
